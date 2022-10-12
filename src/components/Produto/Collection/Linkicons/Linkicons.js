@@ -7,11 +7,11 @@ export default function Linkicons(){
     return(
 
         <nav>
-            <Link to= "/camisetas" className = {'/camisetas'}>Camisetas</Link>
-            <Link to= "/calças" className = {'/calças'}>Calças</Link>
+            <Link to= "/Camisetas" className = {'/Camisetas'}>Camisetas</Link>
+            <Link to= "/Calças" className = {'/Calças'}>Calças</Link>
             <Link to= "/Bonés" className = {'/Bonés'}>Bonés</Link>
             <Link to= "/Headphones" className = {'/Headphones'}>Headphones</Link>
-            <Link to= "/Ténis" className = {'/Ténis'}>Ténis</Link>
+            <Link to= "/Tênis" className = {'/Tênis'}>Tênis</Link>
         </nav>
     )
 }
