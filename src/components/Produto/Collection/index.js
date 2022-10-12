@@ -10,6 +10,8 @@ export default function Colletion(){
             <p>Coleções em destaque</p>
             <CardContent></CardContent>
             </Container>
+
         </section>
+       
     )
 }
