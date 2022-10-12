@@ -1,7 +1,8 @@
 // import Produtos from "./components/Produtos/index.js";
 import React, { useState } from "react";
-import {Routes, Route, Navigate} from 'react-router-dom'
+// import {Routes, Route, Navigate} from 'react-router-dom'
 import Header from "./components/Header/index.js";
+import Collection from "./components/Produto/Collection/index.js";
 
 export const AppContext = React.createContext();
 
@@ -13,6 +14,7 @@ export default function App() {
       <>
         <Header />
         {/* <Produtos /> */}
+        {Collection}
       </>
     </AppContext.Provider>
   )
