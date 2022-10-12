@@ -1,5 +1,5 @@
-import Nav from "./Nav/Nav";
-import Buscar from "./Buscar/Buscar";
+import NavBar from "./Nav";
+import Buscar from "./Buscar";
 import { Link } from "react-router-dom";
 import { ShoppingCart } from "@mui/icons-material";
 
@@ -10,7 +10,7 @@ export default function Header() {
             <div className="row border justify-content-center">
                 <div className="col border" sm={1}>Logo</div>
                 <div className="col border" sm={2}>Digital Store</div>
-                <div className="col border" sm={6}><Buscar /></div>
+                <div className="col border" sm={6}><Buscar/></div>
                 <div className="col border" sm={1}>cadastre-se</div>
                 <div className="col border" sm={1}><Link to={'/'} className="btn btn-primary">Entrar</Link></div>
                 <div className="col border" sm={1}>
@@ -20,7 +20,7 @@ export default function Header() {
                 </div>
             </div>
             <div className="row border">
-                <div className="col border" sm={8}><Nav /></div>
+                <div className="col border" sm={8}><NavBar/></div>
                 <div className="col border"></div>
             </div>
         </div>

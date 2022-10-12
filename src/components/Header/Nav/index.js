@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import './index.css'
 
-export default function Nav() {
+export default function NavBar() {
     return (
         <div>
             <Link className="mx-2">Home</Link>
