@@ -1,26 +1,28 @@
-import Nav from "./Nav";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Button from 'react-bootstrap/Button';
-import Buscar from "./Buscar";
+import Nav from "./Nav/Nav";
+import Buscar from "./Buscar/Buscar";
+import { Link } from "react-router-dom";
+import { ShoppingCart } from "@mui/icons-material";
+
 
 export default function Header() {
     return (
-        <Container className="container-md border">
-            <Row className="border justify-content-center">
-                <Col className="border" sm={1}>Logo</Col>
-                <Col className="border" sm={2}>Digital Store</Col>
-                <Col className="border" sm={6}><Buscar /></Col>
-                <Col className="border" sm={1}>cadastre-se</Col>
-                <Col className="border" sm={1}><Button>Entrar</Button></Col>
-                <Col className="border" sm={1}>carrinho</Col>
-            </Row>
-            <Row className="border">
-                <Col className="border" sm={8}><Nav /></Col>
-                <Col className="border"></Col>
-            </Row>
-        </Container>
+        <div className="container container-md border">
+            <div className="row border justify-content-center">
+                <div className="col border" sm={1}>Logo</div>
+                <div className="col border" sm={2}>Digital Store</div>
+                <div className="col border" sm={6}><Buscar /></div>
+                <div className="col border" sm={1}>cadastre-se</div>
+                <div className="col border" sm={1}><Link to={'/'} className="btn btn-primary">Entrar</Link></div>
+                <div className="col border" sm={1}>
+                <button type="button btn-" className="btn">
+                <ShoppingCart/><span className="badge badge-danger">9</span>
+                </button>
+                </div>
+            </div>
+            <div className="row border">
+                <div className="col border" sm={8}><Nav /></div>
+                <div className="col border"></div>
+            </div>
+        </div>
     )
 }

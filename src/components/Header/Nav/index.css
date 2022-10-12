@@ -1,0 +1,11 @@
+.mx-2{
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+};
+.mx-2 :hover{
+    text-decoration: dashed;
+    color: rgb(185, 20, 50);
+    background-color: transparent;
+
+}
