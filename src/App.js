@@ -14,7 +14,7 @@ export default function App() {
       <>
         <Header />
         {/* <Produtos /> */}
-        {Collection}
+        <Collection/>
       </>
     </AppContext.Provider>
   )
