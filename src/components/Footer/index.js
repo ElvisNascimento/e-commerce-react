@@ -16,19 +16,19 @@ import 'bootstrap/dist/css/bootstrap.min.css';
                     <div className="me-5 ">
                         <ul className="d-flex flex-row me-5 ps-5">
                             <ul className="text-start">
-                                <a href="https://www.facebook.com/">
+                                <a href="https://www.facebook.com/digitalcollegebr/">
                                     <BsFacebook className="text-white "/>
                                 </a>
                             </ul>
 
                             <ul>
-                                <a href="https://www.instagram.com/">
+                                <a href="https://www.instagram.com/digitalcollegebr/">
                                     <BsInstagram className="text-white "/>
                                 </a>
                             </ul>
 
                             <ul>
-                                <a href="https://twitter.com/">
+                                <a href="https://mobile.twitter.com/eaicollegers">
                                     <BsTwitter className="text-white "/>
                                 </a>
                             </ul>
@@ -41,7 +41,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
                         <span className="px-3 ">Informação</span>
                         <li className="nav-item mt-3"><a href="" className="nav-link text-white">Sobre Drip Store</a></li>
                         <li className="nav-item"><a href="" className="nav-link text-white">Segurança</a></li>
-                        <li className="nav-item"><a href="" className="nav-link text-white">Wishulst</a></li>
+                        <li className="nav-item"><a href="" className="nav-link text-white">Wishlist</a></li>
                         <li className="nav-item"><a href="" className="nav-link text-white">Blog</a></li>
                         <li className="nav-item"><a href="" className="nav-link text-white">Trabalhe Conosco</a></li>
                         <li className="nav-item"><a href="" className="nav-link text-white">Meus Pedidos</a></li>
@@ -61,14 +61,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
                 <div className="col mt-5">
                     <span>Contato</span>
-                    <p className="mt-4">
+                    <a href="https://www.google.com.br/maps/place/Digital+College+Fortaleza/@-3.7326781,-38.5125959,17z/data=!3m1!4b1!4m5!3m4!1s0x7c74991204f2b1d:0x38e3b25bd5d38768!8m2!3d-3.7326781!4d-38.5104072">
+                    <p className="mt-4 text-white">
                     Av. Santos Dumont, 1510 - 1 <br />
                     andar - Aldeota, Fortaleza - <br/>
                     CE, 60150-161
                     <br />
-                    <br />
-                    85 3051-3411
                     </p>
+                    </a>
+                    (85) 3051-3411
                 </div> 
             </div>
             <hr />
