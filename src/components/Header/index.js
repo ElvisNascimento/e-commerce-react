@@ -11,7 +11,7 @@ export default function Header() {
                 <div className="col border" sm={1}>Logo</div>
                 <div className="col border" sm={2}>Digital Store</div>
                 <div className="col border" sm={6}><Buscar/></div>
-                <div className="col border" sm={1}>cadastre-se</div>
+                <div className="col border" sm={1}><a href="">Cadastre-se</a></div>
                 <div className="col border" sm={1}><Link to={'/'} className="btn _botaoEntrar">Entrar</Link></div>
                 <div className="col border" sm={1}>
                     <button type="button btn-" className="btn">
