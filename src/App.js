@@ -1,25 +1,27 @@
 // import Produtos from "./components/Produtos/index.js";
 import React, { useState } from "react";
-import {Routes, Route, Navigate} from 'react-router-dom'
+import {Routes, Route, Navigate, BrowserRouter} from 'react-router-dom'
 import Header from "./components/Header/index.js";
 import Footer from "./components/Footer/index.js";
-
-
-
-
-export const AppContext = React.createContext();
+import bannerFooter from "./components/banner-footer/index.js";
 
 export default function App() {
-  const [carrinho, setCarrinho] = useState([]);
+  
 
   return (
-    <AppContext.Provider value={{ carrinho, setCarrinho }}>
+    
       <>
-        <Header />
-        {/* <Produtos /> */}
-        <Footer/>
+      <BrowserRouter>
+      
+      <bannerFooter/>
+      <Routes>
+      <Route></Route>
+      <Route></Route>
+
+      </Routes>
+      </BrowserRouter>
       </>
-    </AppContext.Provider>
+    
   )
 }
 

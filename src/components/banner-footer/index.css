@@ -1,4 +1,4 @@
-*{
+_imagem{
     position: absolute;
 width: 573px;
 height: 330px;
@@ -8,7 +8,7 @@ top: 2852px;
 background: url(tenis.png);
 }
 
-*{
+_imagem{
     position: absolute;
 width: 466px;
 height: 466px;
@@ -17,7 +17,8 @@ top: 2824px;
 
 background: linear-gradient(180deg, rgba(66, 0, 255, 0.25) -40.67%, rgba(255, 255, 255, 0) 100%);
 }
-*{
+
+_r2{
     position: absolute;
 width: 116px;
 height: 22px;
@@ -34,25 +35,59 @@ letter-spacing: 0.75px;
 
 color: #C92071;
 }
-*{
+
+_r27{
     position: absolute;
 width: 514px;
 height: 100px;
 left: 692px;
 top: 2882px;
 
-/* H2 Title - Desktop Bold */
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
 font-size: 48px;
 line-height: 50px;
-/* or 104% */
 
 letter-spacing: 1px;
 
-/* dark-gray-2 */
+color: #474747;
+}
+_r271{
+    position: absolute;
+width: 589px;
+height: 112px;
+left: 692px;
+top: 3002px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+
+letter-spacing: 0.75px;
 
 color: #474747;
+}
+_r273{
+    position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 22px;
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.75px;
+
+color: #F5F5F5;
 }

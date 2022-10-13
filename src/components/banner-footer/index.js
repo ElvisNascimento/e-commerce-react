@@ -12,8 +12,8 @@ export default function bannerFooter() {
             <div class="r24">
                 <div class="r25">
                 <div class="r26">
-                    <div>
-                        <span>Oferta especial</span>
+                    <div class="r2">
+                    Oferta especial
                     </div>
                     <div class="r27">
                     <span>Air Jordan edição de colecionador</span>
