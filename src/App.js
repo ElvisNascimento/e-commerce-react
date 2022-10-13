@@ -2,7 +2,11 @@
 import React, { useState } from "react";
 import {Routes, Route, Navigate} from 'react-router-dom'
 import Header from "./components/Header/index.js";
-import Home from "./Pages/Home/index.js";
+import Footer from "./components/Footer/index.js";
+
+
+
+
 export const AppContext = React.createContext();
 
 export default function App() {
@@ -10,13 +14,11 @@ export default function App() {
 
   return (
     <AppContext.Provider value={{ carrinho, setCarrinho }}>
-      <React.Fragment>
+      <>
         <Header />
-        <Routes>
-          <Route path={'/'} element={<Navigate to={'./Pages/Home/'}/>} />
-          <Route path={'/Pages/Home/'} element={Home()}/>
-        </Routes>
-      </React.Fragment>
+        {/* <Produtos /> */}
+        <Footer/>
+      </>
     </AppContext.Provider>
   )
 }
