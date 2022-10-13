@@ -1,4 +1,4 @@
-export default function Calças(){
+export default function Calcas(){
     return(
         <div>
             <h1>Pagina das Calças</h1>
