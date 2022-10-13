@@ -1,8 +1,8 @@
-export default function Headphones(){
+export default function TrabalheConosco(){
     return(
         <div>
             <h1>
-                Headphones
+                TRABALHE CONOSCO
             </h1>
         </div>
     )

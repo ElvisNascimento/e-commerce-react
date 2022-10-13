@@ -1,8 +1,8 @@
-export default function Camisetas(){
+export default function Headphones(){
     return(
         <div>
             <h1>
-                Camisetas
+                HEADPHONES
             </h1>
         </div>
     )
