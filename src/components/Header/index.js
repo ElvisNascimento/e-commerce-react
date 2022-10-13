@@ -8,12 +8,12 @@ import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
 const StyledBadge = styled(Badge)(({ theme }) => ({
     '& .MuiBadge-badge': {
-      right: -3,
-      top: 1,
-      border: `2px solid ${theme.palette.background.paper}`,
-      padding: '0 4px',
+        right: -3,
+        top: 1,
+        border: `2px solid ${theme.palette.background.paper}`,
+        padding: '0 4px',
     },
-  }));
+}));
 
 export default function Header() {
     return (

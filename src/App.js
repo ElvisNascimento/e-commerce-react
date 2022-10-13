@@ -1,6 +1,6 @@
 // import Produtos from "./components/Produtos/index.js";
 import React, { useState } from "react";
-import {Routes, Route, Navigate} from 'react-router-dom';
+import {Routes, Route} from 'react-router-dom';
 import Bones from "./Pages/Categorias/Bones/bones.js";
 import Calcas from "./Pages/Categorias/Calcas/calca.js";
 import Camisetas from "./Pages/Categorias/Camisetas/camisetas.js";

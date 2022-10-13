@@ -16,14 +16,16 @@
 }
 
 .input {
-    border-radius: 25px;
+    border-radius: 10px;
     height: 50px;
     box-sizing: border-box;
     padding-left: 1.5rem;
-    width: 50%;
-    transition-duration: 2s;
+    width: 100%;
+    /* transition-duration: 2s; */
+    border: none;
+    background-color: rgb(194, 190, 190);
 }
 
-.input-expanded {
+/* .input-expanded {
     width: 100%;
-}
+} */
