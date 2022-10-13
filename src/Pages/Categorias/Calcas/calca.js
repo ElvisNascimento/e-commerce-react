@@ -2,7 +2,7 @@ export default function Calcas(){
     return(
         <div>
             <h1>
-                CALCAS
+                CALÇAS
             </h1>
         </div>
     )
