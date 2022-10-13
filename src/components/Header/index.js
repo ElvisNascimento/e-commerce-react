@@ -1,8 +1,19 @@
 import NavBar from "./Nav";
 import Buscar from "./Buscar";
 import { Link } from "react-router-dom";
-import { ShoppingCart } from "@mui/icons-material";
+import Badge from '@mui/material/Badge';
+import { styled } from '@mui/material/styles';
+import IconButton from '@mui/material/IconButton';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
+const StyledBadge = styled(Badge)(({ theme }) => ({
+    '& .MuiBadge-badge': {
+      right: -3,
+      top: 1,
+      border: `2px solid ${theme.palette.background.paper}`,
+      padding: '0 4px',
+    },
+  }));
 
 export default function Header() {
     return (
@@ -14,9 +25,11 @@ export default function Header() {
                 <div className="col border" sm={1}><Link href="">Cadastre-se</Link></div>
                 <div className="col border" sm={1}><Link to={'/'} className="btn _botaoEntrar">Entrar</Link></div>
                 <div className="col border" sm={1}>
-                    <button type="button btn-" className="btn">
-                        <ShoppingCart /><span className="badge badge-danger">9</span>
-                    </button>
+                    <IconButton aria-label="cart">
+                        <StyledBadge badgeContent={2} color="error">
+                            <ShoppingCartIcon />
+                        </StyledBadge>
+                    </IconButton>
                 </div>
             </div>
             <div className="row border">
