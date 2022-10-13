@@ -5,7 +5,10 @@ import Badge from '@mui/material/Badge';
 import { styled } from '@mui/material/styles';
 import IconButton from '@mui/material/IconButton';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
-import './style.css'
+import React, { Component } from "react";
+import Logo from '../../img/Logo.png';
+import Digital from '../../img/Digital.png';
+import './style.css';
 
 const StyledBadge = styled(Badge)(({ theme }) => ({
     '& .MuiBadge-badge': {
@@ -18,10 +21,10 @@ const StyledBadge = styled(Badge)(({ theme }) => ({
 
 export default function Header() {
     return (
-        <div className="_container container-md border">
+        <div className="container container-md border">
             <div className="row border d-flex justify-content-center align-items-center">
-                <div className="col border" sm={1}>Logo</div>
-                <div className="col border" sm={2}>Digital Store</div>
+                <div className="col border" sm={1}><img src={Logo}/></div>
+                <div className="col border" sm={2}><img src={Digital}/></div>
                 <div className="col border" sm={6}><Buscar/></div>
                 <div className="col border" sm={1}><Link className="cadastro">Cadastre-se</Link></div>
                 <div className="col border" sm={1}><Link to={'/'} className="btn _botaoEntrar">Entrar</Link></div>
