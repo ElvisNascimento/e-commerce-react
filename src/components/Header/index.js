@@ -1,7 +1,7 @@
 import NavBar from "./Nav";
 import Buscar from "./Buscar";
+import { Link } from "react-router-dom";
 import { ShoppingCart } from "@mui/icons-material";
-import BotaoEntrar from "./BotaoEntrar";
 
 
 export default function Header() {
@@ -12,7 +12,7 @@ export default function Header() {
                 <div className="col border" sm={2}>Digital Store</div>
                 <div className="col border" sm={6}><Buscar/></div>
                 <div className="col border" sm={1}>cadastre-se</div>
-                <div className="col border" sm={1}><BotaoEntrar/></div>
+                <div className="col border" sm={1}><Link to={'/'} className="btn _botaoEntrar">Entrar</Link></div>
                 <div className="col border" sm={1}>
                     <button type="button btn-" className="btn">
                         <ShoppingCart /><span className="badge badge-danger">9</span>
