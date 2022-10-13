@@ -8,10 +8,6 @@ import Headphones from "./Pages/Categorias/Headphones/head.js";
 import Trabalhe from "./Pages/Categorias/Tenis/tenis.js";
 import Home from "./Pages/Home/index.js";
 
-
-
-
-
 export const AppContext = React.createContext();
 
 export default function App() {
@@ -19,17 +15,17 @@ export default function App() {
 
   return (
     <AppContext.Provider value={{ carrinho, setCarrinho }}>
-      <>
+      <React.Fragment>
         <Routes>
-          <Route path={'/'} element={<Navigate to={'./Pages/Home'}/>}/>
-          <Route path={'./Pages/Home'} element={Home()}/>
-          <Route path={'./Pages/Categorias/Bones'} element={Bones()}/>
-          <Route path={'./Pages/Categorias/Calcas'}element={Calcas()}/>
-          <Route path={'./Pages/Categorias/Camisetas'} element={Camisetas()} />
-          <Route path={'./Pages/Categorias/Headphones'} element={Headphones()}/>
-          <Route path={'./Pages/Categorias/Tenis'} element={Trabalhe()} />
+          <Route path={'/'} element={<Home/>}/>
+          <Route path={'/Pages/Home'} element={<Home/>}/>
+          <Route path={'/Pages/Categorias/Bones'} element={Bones()}/>
+          <Route path={'/Pages/Categorias/Calcas'}element={Calcas()}/>
+          <Route path={'/Pages/Categorias/Camisetas'} element={Camisetas()} />
+          <Route path={'/Pages/Categorias/Headphones'} element={Headphones()}/>
+          <Route path={'/Pages/Categorias/Tenis'} element={Trabalhe()} />
         </Routes>
-      </>
+      </React.Fragment>
     </AppContext.Provider>
   )
 }
