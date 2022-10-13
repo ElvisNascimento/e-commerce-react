@@ -5,6 +5,7 @@ import Badge from '@mui/material/Badge';
 import { styled } from '@mui/material/styles';
 import IconButton from '@mui/material/IconButton';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import './style.css'
 
 const StyledBadge = styled(Badge)(({ theme }) => ({
     '& .MuiBadge-badge': {
@@ -22,7 +23,7 @@ export default function Header() {
                 <div className="col border" sm={1}>Logo</div>
                 <div className="col border" sm={2}>Digital Store</div>
                 <div className="col border" sm={6}><Buscar/></div>
-                <div className="col border" sm={1}><Link href="">Cadastre-se</Link></div>
+                <div className="col border" sm={1}><Link className="cadastro">Cadastre-se</Link></div>
                 <div className="col border" sm={1}><Link to={'/'} className="btn _botaoEntrar">Entrar</Link></div>
                 <div className="col border" sm={1}>
                     <IconButton aria-label="cart">
