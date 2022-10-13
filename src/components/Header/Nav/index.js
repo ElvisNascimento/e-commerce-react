@@ -7,7 +7,7 @@ export default function NavBar() {
             <Link className="mx-2">Home</Link>
             <Link className="mx-2">Produtos</Link>
             <Link className="mx-2">Categorias</Link>
-            <Link className="mx-2">Meus Produtos</Link>
+            <Link className="mx-2">Meus Pedidos</Link>
         </div>
     )
 }

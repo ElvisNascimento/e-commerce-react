@@ -5,25 +5,25 @@
 }
 
 .icon {
-    height: 1.5rem;
-    width: 1.5rem;
+    font-size: 50px;
     padding: 4px;
     position: absolute;
     box-sizing: border-box;
     top: 50%;
     right: 2px;
     transform: translateY(-50%);
+    /* border: 1px solid black; */
+
 }
 
 .input {
     border-radius: 8px;
-    height: 50px;
-    box-sizing: border-box;
+    height: 60px;
     padding-left: 1.5rem;
     width: 100%;
     /* transition-duration: 2s; */
     border: none;
-    background-color: rgb(194, 190, 190);
+    background-color: rgb(231, 230, 230);
 }
 
 /* .input-expanded {

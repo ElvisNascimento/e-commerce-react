@@ -6,8 +6,7 @@ import { styled } from '@mui/material/styles';
 import IconButton from '@mui/material/IconButton';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import React, { Component } from "react";
-import Logo from '../../img/Logo.png';
-import Digital from '../../img/Digital.png';
+import LogoDigital from '../../img/LogoDigital.png';
 import './style.css';
 
 const StyledBadge = styled(Badge)(({ theme }) => ({
@@ -21,14 +20,13 @@ const StyledBadge = styled(Badge)(({ theme }) => ({
 
 export default function Header() {
     return (
-        <div className="container container-md border">
-            <div className="row border d-flex justify-content-center align-items-center">
-                <div className="col border" sm={1}><img src={Logo}/></div>
-                <div className="col border" sm={2}><img src={Digital}/></div>
-                <div className="col border" sm={6}><Buscar/></div>
-                <div className="col border" sm={1}><Link className="cadastro">Cadastre-se</Link></div>
-                <div className="col border" sm={1}><Link to={'/'} className="btn _botaoEntrar">Entrar</Link></div>
-                <div className="col border" sm={1}>
+        <div className="_container container-md border">
+            <div className="row border d-flex justify-content-center align-content-center align-items-center">
+                <div className="col-3 ms-5 ps-5 border"><img src={LogoDigital}/></div>
+                <div className="col-5 ms-0 border"><Buscar/></div>
+                <div className="col border"><Link className="cadastro">Cadastre-se</Link></div>
+                <div className="col border"><Link to={'/'} className="btn _botaoEntrar">Entrar</Link></div>
+                <div className="col border">
                     <IconButton aria-label="cart">
                         <StyledBadge badgeContent={2} color="error">
                             <ShoppingCartIcon />
@@ -36,9 +34,8 @@ export default function Header() {
                     </IconButton>
                 </div>
             </div>
-            <div className="row border">
-                <div className="col border" sm={8}><NavBar/></div>
-                <div className="col border"></div>
+            <div className="_head_Dois border">
+                <div className=" border"><NavBar/></div>
             </div>
         </div>
     )

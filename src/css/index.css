@@ -5,11 +5,11 @@
 }
 
 ._container {
-    margin-top: 34px;
+    padding-top: 34px;
     background: #FFFFFF;
     box-shadow: 0px 10px 30px rgba(141, 114, 32, 0.05);
+    height: 192px;
 }
-
 ._head_Um {
     display: flex;
     justify-content: space-around;
@@ -26,19 +26,14 @@
     background: #C92071;
 }
 
-._barraPesquisa {
-    height: 60px;
-    width: 559px;
-    background: #474747;
-    opacity: 0.04;
-    border-radius: 8px;
-}
-
 ._head_Dois {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
     justify-content: start;
     align-items: flex-end;
     border: 1px solid black;
+    font-size: 18px;
     height: 50%;
-    width: 50%;
+    width: 80%;
+    margin-left: 84px;
 }
