@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import {Routes, Route, Navigate} from 'react-router-dom'
 import Header from "./components/Header/index.js";
 import Footer from "./components/Footer/index.js";
+import ProdutosAlta from "./components/ProdutosAlta/produtosAlta.js";
 
 
 
@@ -16,6 +17,8 @@ export default function App() {
     <AppContext.Provider value={{ carrinho, setCarrinho }}>
       <>
         <Header />
+
+        <ProdutosAlta/>
         {/* <Produtos /> */}
         <Footer/>
       </>
