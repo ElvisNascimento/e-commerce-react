@@ -1,6 +1,8 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { CardContent} from "@mui/material";
 import { Container} from "@mui/system";
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 export default function Colletion(){

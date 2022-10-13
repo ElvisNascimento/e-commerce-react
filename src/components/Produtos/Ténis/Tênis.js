@@ -1,4 +1,4 @@
-export default function Tênis() {
+export default function Tenis() {
     return (
         <div>
             <h1> Pagina dos Tênis</h1>
