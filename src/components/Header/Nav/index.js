@@ -1,11 +1,13 @@
+import { Link } from "react-router-dom";
+import './index.css'
 
-export default function Nav() {
+export default function NavBar() {
     return (
         <div>
-            <span>Home</span>
-            <span>Produtos</span>
-            <span>Categorias</span>
-            <span>Meus Produtos</span>
+            <Link className="mx-2" to='/'>Home</Link>
+            <Link className="mx-2" to='/Pages/Produtos'>Produtos</Link>
+            <Link className="mx-2">Categorias</Link>
+            <Link className="mx-2">Meus Pedidos</Link>
         </div>
     )
 }
