@@ -38,6 +38,16 @@ export default function Collection() {
                     </div>
                 </div>
             </section>
+            <div>
+                <section>
+                    <div className='mt-4'>
+                        <p>Coleções em destaque</p>
+                    </div>
+                    <div>
+                        <img src=''/>
+                    </div>
+                </section>
+            </div>
         </div>
     )
 }

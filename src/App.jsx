@@ -10,6 +10,7 @@ import Calcas from "./components/Produtos/Calcas";
 import Camisetas from "./components/Produtos/Camisetas";
 import Headphones from "./components/Produtos/Headphones";
 import Tenis from "./components/Produtos/Tenis/";
+import Login from "./Pages/Login/index.js";
 
 export const AppContext = React.createContext();
 
@@ -23,7 +24,8 @@ export default function App() {
         <Routes>
           <Route path={'/'} element={<Home/>}/>
           <Route path={'/Pages/Home'} element={<Home/>}/>
-          <Route path={'/Pages/Produtos'} element={<TodosProdutos/>}/>
+          <Route path={'/Pages/Login'} element={<Login/>}/>
+          {/* <Route path={'/Pages/Produtos'} element={<TodosProdutos/>}/> */}
           <Route path="camisetas" element={<Camisetas/>}/>
           <Route path="calcas" element={<Calcas/>}/>
           <Route path="bones" element={<Bones/>}/>
