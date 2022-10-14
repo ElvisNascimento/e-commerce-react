@@ -1,9 +1,9 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Desconto from '../../../img/Desconto.png'
-import Supreme from '../../../img/Supreme.png'
-import Tenis from '../../../img/Tenis.png'
-import Headset from '../../../img/Headset.png'
+import Desconto from './img/Desconto.png'
+import Supreme from './img/Supreme.png'
+import Tenis from './img/Tenis.png'
+import Headset from './img/Headset.png'
 
 
 export default function Collection() {
