@@ -5,11 +5,10 @@ export default function Calças(){
         <div>
             <h1>Pagina das Calças</h1>
 
-            <Link to='/'>
+            <Link to='/Home'>
                 <Button variant='outlined' >Voltar pro inicio</Button>
             </Link>
         </div>
     
-
     )
 }
