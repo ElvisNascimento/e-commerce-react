@@ -18,25 +18,15 @@ export default function Linkicons(){
             <div className='card-deck d-flex justify-content-center' >
                 <p className="titulo">Coleções em destaque</p>
             </div>
-            <div className='d-flex d-flex-row-row justify-content-center'>
+            <div className='d-flex d-flex-row justify-content-center'>
                 <nav>
                     <Link to="/"></Link>
-                    <div>
                         <Button className="botao"><Link to="/Camisetas"><p className="texto"><img src={FrameC}/>Camisetas</p></Link></Button>
-                    </div>
-                    <div>
                         <Button className="botao"><Link to="/Calcas" ><p className="texto"><img src={FrameCa}/>Calças</p></Link></Button>
-                    </div>
-                    <div>
                         <Button className="botao"><Link to="/Bones"><p className="texto"><img src={FrameCa}/>Bonés</p></Link></Button>
-                    </div>
-                    <div>
-                        <Button className="botao"><Link to="/Headphones"><p className="texto"><img src={FrameH}/>Headphones</p></Link></Button>
-                    </div>
-                    <div>
+                        <Button className="botao"><Link to="/Headphones"><p className="texto"><img src={FrameH}/>Headphones</p></Link></Button>                  
                         <Button className="botao"><Link to="/Tenis"><p className="texto"><img src={FrameS}/>Tênis</p></Link></Button>
-                    </div>
-                </nav>
+                    </nav>
             </div>
         </section>
     );
