@@ -7,7 +7,7 @@ import Camisetas from "./Pages/Categorias/Camisetas/camisetas.js";
 import Headphones from "./Pages/Categorias/Headphones/head.js";
 import Trabalhe from "./Pages/Categorias/Tenis/tenis.js";
 import Home from "./Pages/Home/index.js";
-import TodosProdutos from "./Pages/TodosProdutos/index.jsx";
+import TodosProdutos from "./Pages/Produtos/index.jsx";
 
 export const AppContext = React.createContext();
 
