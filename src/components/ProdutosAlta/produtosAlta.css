@@ -6,6 +6,7 @@
     padding: 1rem;
     
 }
+
 h5{
     font-size: 18px;
     line-height: 34px;
@@ -71,8 +72,8 @@ h5{
 
 .dis{
     position: absolute;
-    top: 160px;
-    left: 80px;
+    top: 10px;
+    left: 20px;
     z-index: 1000;
     
 }
@@ -92,12 +93,10 @@ h5{
     height: 30px;
 }
 
-.dis2{
-    position: absolute;
-    top: 160px;
-    left: 370px;
 
-}
 .preco{
     padding-bottom: 2rem;
 }
+
+
+

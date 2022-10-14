@@ -15,7 +15,7 @@ export default function ProdutosAlta() {
 
                 </div>
                 <div className="col-2 ">
-                    <a className="VerTodos">Ver todos <ArrowForwardIcon></ArrowForwardIcon></a>
+                    <a href="#" className="VerTodos">Ver todos <ArrowForwardIcon></ArrowForwardIcon></a>
                      
                 </div>
             </div>
@@ -23,12 +23,13 @@ export default function ProdutosAlta() {
         </div>
         <div className="cards container">
             <div className="row">
-            <div className=" col-3">
-                <div className="dis">
-                    <button className="discount">30%OFF</button>
-                </div>
+            <div className="col-3">
+                
                 <div className="cartao">
-                    <img  className="sneakerImg"src={Sneakers} style={{backgroundColor:"#FFFFFF"}}></img>
+                    <div className="dis">
+                        <button className="discount">30%OFF</button>
+                    </div>
+                    <img  className="sneakerImg"src={Sneakers} style={{backgroundColor:"#FFFFFF"}} alt=""></img>
                     <p className="sneakerP">Tênis</p>
                     <p style={{fontSize:"24px"}}>K-Swiss V8 - Masculino</p>
 
@@ -46,26 +47,27 @@ export default function ProdutosAlta() {
             </div>
                 <div className="col-3">
                     <div className="cartao">
-                    <img  className="sneakerImg"src={Sneakers} style={{backgroundColor:"#FFFFFF"}}></img>
-                    <p className="sneakerP">Tênis</p>
-                    <p style={{fontSize:"24px"}}>K-Swiss V8 - Masculino</p>
-
-                    </div>
-
-                    
-                    <div className="preco d-flex">
-                        <span className="precoInicial" style={{textDecoration:"line-through"}}>$200</span> <span className="precoAtual">$100</span>
-
-                    </div>
-                    <div className="dis2">
+                    <div className="dis">
                     <button className="discount2">30%OFF</button>
                     </div>
+                    <img  className="sneakerImg"src={Sneakers} style={{backgroundColor:"#FFFFFF"}} alt=""></img>
+                    <p className="sneakerP">Tênis</p>
+                    <p style={{fontSize:"24px"}}>K-Swiss V8 - Masculino</p>
+
+                    </div>
+
+                    
+                    <div className="preco d-flex">
+                        <span className="precoInicial" style={{textDecoration:"line-through"}}>$200</span> <span className="precoAtual">$100</span>
+
+                    </div>
+                   
                     
                     
 
                 </div>
                 <div className="col-3">
-                    <img  className="sneakerImg"src={Sneakers} style={{backgroundColor:"#FFFFFF"}}></img>
+                    <img  className="sneakerImg"src={Sneakers} style={{backgroundColor:"#FFFFFF"}} alt=""></img>
                     <p className="sneakerP">Tênis</p>
                     <p style={{fontSize:"24px"}}>K-Swiss V8 - Masculino</p>
                     <div className="preco d-flex">
@@ -76,7 +78,7 @@ export default function ProdutosAlta() {
 
                 </div>
                 <div className="col-3">
-                    <img  className="sneakerImg"src={Sneakers} style={{backgroundColor:"#FFFFFF"}}></img>
+                    <img  className="sneakerImg"src={Sneakers} style={{backgroundColor:"#FFFFFF"}} alt=""></img>
                     <p className="sneakerP">Tênis</p>
                     <p style={{fontSize:"24px"}}>K-Swiss V8 - Masculino</p>
                     <div className="preco d-flex">
@@ -90,7 +92,7 @@ export default function ProdutosAlta() {
 
             <div className="row">
             <div className="col-3">
-                    <img  className="sneakerImg"src={Sneakers} style={{backgroundColor:"#FFFFFF"}}></img>
+                    <img  className="sneakerImg"src={Sneakers} style={{backgroundColor:"#FFFFFF"}} alt=""></img>
                     <p className="sneakerP">Tênis</p>
                     <p style={{fontSize:"24px"}}>K-Swiss V8 - Masculino</p>
                     <div className="preco d-flex">
@@ -101,7 +103,7 @@ export default function ProdutosAlta() {
 
             </div>
                 <div className="col-3">
-                    <img  className="sneakerImg"src={Sneakers} style={{backgroundColor:"#FFFFFF"}}></img>
+                    <img  className="sneakerImg"src={Sneakers} style={{backgroundColor:"#FFFFFF"}} alt=""></img>
                     <p className="sneakerP">Tênis</p>
                     <p style={{fontSize:"24px"}}>K-Swiss V8 - Masculino</p>
                     <div className="preco d-flex">
@@ -112,7 +114,7 @@ export default function ProdutosAlta() {
 
                 </div>
                 <div className="col-3">
-                    <img  className="sneakerImg"src={Sneakers} style={{backgroundColor:"#FFFFFF"}}></img>
+                    <img  className="sneakerImg"src={Sneakers} style={{backgroundColor:"#FFFFFF"}} alt=""></img>
                     <p className="sneakerP">Tênis</p>
                     <p style={{fontSize:"24px"}}>K-Swiss V8 - Masculino</p>
                     <div className="preco d-flex">
@@ -123,7 +125,7 @@ export default function ProdutosAlta() {
 
                 </div>
                 <div className="col-3">
-                    <img  className="sneakerImg"src={Sneakers} style={{backgroundColor:"#FFFFFF"}}></img>
+                    <img  className="sneakerImg"src={Sneakers} style={{backgroundColor:"#FFFFFF"}} alt=""></img>
                     <p className="sneakerP">Tênis</p>
                     <p style={{fontSize:"24px"}}>K-Swiss V8 - Masculino</p>
                     <div className="preco d-flex">
