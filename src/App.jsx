@@ -1,13 +1,15 @@
 // import Produtos from "./components/Produtos/index.js";
 import React, { useState } from "react";
 import {Routes, Route} from 'react-router-dom';
-import Bones from "./Pages/Categorias/Bones/bones.js";
-import Calcas from "./Pages/Categorias/Calcas/calca.js";
-import Camisetas from "./Pages/Categorias/Camisetas/camisetas.js";
-import Headphones from "./Pages/Categorias/Headphones/head.js";
-import Trabalhe from "./Pages/Categorias/Tenis/tenis.js";
+
+//import Trabalhe from "./Pages/Categorias/Tenis/tenis.js";
 import Home from "./Pages/Home/index.js";
-import TodosProdutos from "./Pages/TodosProdutos/index.jsx";
+
+import Bones from "./components/Produtos/Bones/";
+import Calcas from "./components/Produtos/Calcas";
+import Camisetas from "./components/Produtos/Camisetas";
+import Headphones from "./components/Produtos/Headphones";
+import Tenis from "./components/Produtos/Tenis/";
 
 export const AppContext = React.createContext();
 
@@ -17,16 +19,22 @@ export default function App() {
   return (
     <AppContext.Provider value={{ carrinho, setCarrinho }}>
       <React.Fragment>
+           
         <Routes>
           <Route path={'/'} element={<Home/>}/>
           <Route path={'/Pages/Home'} element={<Home/>}/>
           <Route path={'/Pages/Produtos'} element={<TodosProdutos/>}/>
-          <Route path={'/Pages/Categorias/Bones'} element={Bones()}/>
-          <Route path={'/Pages/Categorias/Calcas'}element={Calcas()}/>
-          <Route path={'/Pages/Categorias/Camisetas'} element={Camisetas()} />
-          <Route path={'/Pages/Categorias/Headphones'} element={Headphones()}/>
-          <Route path={'/Pages/Categorias/Tenis'} element={Trabalhe()} />
+          <Route path="camisetas" element={<Camisetas/>}/>
+          <Route path="calcas" element={<Calcas/>}/>
+          <Route path="bones" element={<Bones/>}/>
+          <Route path="headphones" element={<Headphones/>}/>
+          <Route path="tenis" element={<Tenis/>}/>
+        
         </Routes>
+          
+                    
+                    
+            
       </React.Fragment>
     </AppContext.Provider>
   )
