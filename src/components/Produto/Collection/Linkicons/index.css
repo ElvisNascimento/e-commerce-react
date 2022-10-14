@@ -19,12 +19,23 @@
     gap: 10px;
     border-radius: 150px;
 
-
     width: 104px;
     height: 104px;
 
-
     background: #FFFFFF;
     box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.05);
+
+}
+
+.texto {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    
+    text-align: center;
+    letter-spacing: 0.75px;
+    color: #474747;
 
 }

@@ -18,11 +18,11 @@ export default function Linkicons(){
             <div className='d-flex d-flex-row-row justify-content-center'>
                 <nav>
                     <Link to="/"></Link>
-                    <Button className="botao"><Link to="/Camisetas">Camisetas</Link></Button>
-                    <Button className="botao"><Link to="/Calcas" > Calças</Link></Button>
-                    <Button className="botao"><Link to="/Bones"> Bonés</Link></Button>
-                    <Button className="botao"><Link to="/Headphones">Headphones</Link></Button>
-                    <Button className="botao"><Link to="/Tenis">Tênis</Link></Button>
+                    <Button className="botao"><Link to="/Camisetas"><p className="texto">Camisetas</p></Link></Button>
+                    <Button className="botao"><Link to="/Calcas" ><p className="texto">Calças</p></Link></Button>
+                    <Button className="botao"><Link to="/Bones"><p className="texto">Bonés</p></Link></Button>
+                    <Button className="botao"><Link to="/Headphones"><p className="texto">Headphones</p></Link></Button>
+                    <Button className="botao"><Link to="/Tenis"><p className="texto">Tênis</p></Link></Button>
                 </nav>
             </div>
         </section>
