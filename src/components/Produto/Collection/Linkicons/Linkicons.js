@@ -26,7 +26,7 @@ export default function Linkicons(){
                         <Button className="botao"><Link to="/Bones"><p className="texto"><img src={FrameCa}/>Bonés</p></Link></Button>
                         <Button className="botao"><Link to="/Headphones"><p className="texto"><img src={FrameH}/>Headphones</p></Link></Button>                  
                         <Button className="botao"><Link to="/Tenis"><p className="texto"><img src={FrameS}/>Tênis</p></Link></Button>
-                    </nav>
+                </nav>
             </div>
         </section>
     );
