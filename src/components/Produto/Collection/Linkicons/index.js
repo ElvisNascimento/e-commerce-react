@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.css";
 import React from "react";
-import {DirectionsCar, TwoWheeler, DirectionsBike} from "@mui/icons-material"
+//import {DirectionsCar, TwoWheeler, DirectionsBike} from "@mui/icons-material"
 
 
 // function Informacao (props) {

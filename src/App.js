@@ -1,5 +1,5 @@
 import React from "react";
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import { Routes, Route} from 'react-router-dom';
 import Linkicons from "./components/Produto/Collection/Linkicons"
 import Bones from "./components/Produtos/Bones/";
 import Calcas from "./components/Produtos/Calcas";
@@ -16,7 +16,7 @@ export default function App() {
                         <Route path="camisetas" element={<Camisetas/>}/>
                         <Route path="calcas" element={<Calcas/>}/>
                         <Route path="bones" element={<Bones/>}/>
-                        <Route path="headphone" element={<Headphones/>}/>
+                        <Route path="headphones" element={<Headphones/>}/>
                         <Route path="tenis" element={<Tenis/>}/>
                     </Routes>
                 
