@@ -25,9 +25,9 @@ export default function Linkicons(){
             <nav>
                 <Link to="/Camisetas">Camisetas</Link>
                 <Link to="/Calcas">Calças</Link>
-                <Link to="/Bones" >Bonés</Link>
+                <Link to="/Bones">Bonés</Link>
                 <Link to="/Headphones">Headphones</Link>
-                <Link to="/Tenis" >Tênis</Link>
+                <Link to="/Tenis">Tênis</Link>
             </nav>
         </div>
     );
