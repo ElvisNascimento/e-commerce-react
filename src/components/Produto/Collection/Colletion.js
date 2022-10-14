@@ -1,4 +1,9 @@
+<<<<<<< HEAD:src/components/Produto/Collection/index.js
 import React from 'react';
+=======
+import { CardContent} from "@mui/material";
+import { Container} from "@mui/system";
+>>>>>>> 9d75d85d2502c435a20c80d1e1e1a3d9d91cc9bd:src/components/Produto/Collection/Colletion.js
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Desconto from '../../../img/Desconto.png'
 import Supreme from '../../../img/Supreme.png'
@@ -6,6 +11,7 @@ import Tenis from '../../../img/Tenis.png'
 import Headset from '../../../img/Headset.png'
 
 
+<<<<<<< HEAD:src/components/Produto/Collection/index.js
 export default function Collection() {
     return (
         <div className="container-md container mt-2 border">
@@ -39,5 +45,17 @@ export default function Collection() {
                 </div>
             </section>
         </div>
+=======
+export default function Colletion(){
+    return(
+        <section>
+            <Container className="container-md mt-2 border">
+            <p>Coleções em destaque</p>
+            <CardContent></CardContent>
+            </Container>
+
+        </section>
+       
+>>>>>>> 9d75d85d2502c435a20c80d1e1e1a3d9d91cc9bd:src/components/Produto/Collection/Colletion.js
     )
 }
