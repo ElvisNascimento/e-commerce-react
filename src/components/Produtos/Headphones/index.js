@@ -5,4 +5,3 @@ export default function Headphones() {
         </div>
     )
 }
-console.log(1);
