@@ -35,11 +35,11 @@ let CarrinhoHover = () => {
     return (
         <div className="_container container-md">
             <div className="row d-flex justify-content-center align-content-center align-items-center">
-                <div className="col-3 ms-5 ps-5"><img src={LogoDigital}/></div>
+                <div className="col-3 ms-5 ps-5 logo"><img src={LogoDigital}/></div>
                 <div className="col-5 ms-0"><Buscar/></div>
-                <div className="col"><Link className="cadastro">Cadastre-se</Link></div>
-                <div className="col"><Link to={'/'} className="btn _botaoEntrar">Entrar</Link></div>
-                <div className="col">
+                <div className="col cadastro"><Link className="cadastro">Cadastre-se</Link></div>
+                <div className="col entrar"><Link to={'/'} className="btn _botaoEntrar">Entrar</Link></div>
+                <div className="col carrinho">
                     <div>
                     <IconButton onClick={() => setExibir(!exibir)} aria-label="cart" data-mui-toggle="dropdown" >
                     <CarrinhoHover />
