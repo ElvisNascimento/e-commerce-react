@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Search } from "@mui/icons-material";
 import "./index.css";
 import { wrapper } from "./style";
+import { fontSize } from "@mui/system";
 
 export default function Buscar(props) {
   const [conteudo, setConteudo] = useState("");
@@ -17,10 +18,10 @@ export default function Buscar(props) {
 
   return (
     <div style={{...wrapper,backgroundColor: props.backgroundColor || "white", }}>
-      <Search className="icon" />
+      <Search className="icon" style={{fontSize : '2.5rem', color:'#999'}} />
       <input
         className={classes}
-        placeholder="Buscar"
+        placeholder="Pesquisar produto..."
         value={conteudo}
         onChange={(event) => {
           handleOnChange(event);

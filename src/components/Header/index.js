@@ -1,26 +1,42 @@
-import Nav from "./Nav";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Button from 'react-bootstrap/Button';
+import NavBar from "./Nav";
 import Buscar from "./Buscar";
+import { Link } from "react-router-dom";
+import Badge from '@mui/material/Badge';
+import { styled } from '@mui/material/styles';
+import IconButton from '@mui/material/IconButton';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import React, { Component } from "react";
+import LogoDigital from '../../img/LogoDigital.png';
+import './style.css';
+
+const StyledBadge = styled(Badge)(({ theme }) => ({
+    '& .MuiBadge-badge': {
+        right: -3,
+        top: 1,
+        border: `2px solid ${theme.palette.background.paper}`,
+        padding: '0 4px',
+    },
+}));
 
 export default function Header() {
     return (
-        <Container className="container-md border">
-            <Row className="border justify-content-center">
-                <Col className="border" sm={1}>Logo</Col>
-                <Col className="border" sm={2}>Digital Store</Col>
-                <Col className="border" sm={6}><Buscar /></Col>
-                <Col className="border" sm={1}>cadastre-se</Col>
-                <Col className="border" sm={1}><Button>Entrar</Button></Col>
-                <Col className="border" sm={1}>carrinho</Col>
-            </Row>
-            <Row className="border">
-                <Col className="border" sm={8}><Nav /></Col>
-                <Col className="border"></Col>
-            </Row>
-        </Container>
+        <div className="_container container-md border">
+            <div className="row border d-flex justify-content-center align-content-center align-items-center">
+                <div className="col-3 ms-5 ps-5 border"><img src={LogoDigital}/></div>
+                <div className="col-5 ms-0 border"><Buscar/></div>
+                <div className="col border"><Link className="cadastro">Cadastre-se</Link></div>
+                <div className="col border"><Link to={'/'} className="btn _botaoEntrar">Entrar</Link></div>
+                <div className="col border">
+                    <IconButton aria-label="cart">
+                        <StyledBadge badgeContent={2} color="error">
+                            <ShoppingCartIcon />
+                        </StyledBadge>
+                    </IconButton>
+                </div>
+            </div>
+            <div className="_head_Dois border">
+                <div className=" border"><NavBar/></div>
+            </div>
+        </div>
     )
 }

@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+.ProdutosAlta{
+    font-family: 'Inter', sans-serif;
+    background-color: #F9F8FE;
+    padding: 1rem;
+    
+}
+h5{
+    font-size: 18px;
+    line-height: 34px;
+    color: #474747;
+}
+
+.VerTodos{
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: #C92071;
+    padding: 2.5rem;
+    
+    
+}
+
+.cards{
+    background-color: #F9F8FE;
+}
+
+
+.sneakerImg{
+    width: 230px;
+    height: 230px
+}
+
+.sneakerP{
+    color: #8F8F8F;
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.inicialP{
+    text-decoration: line-through;
+}
+
+.precoInicial{
+    padding-right: 10px;
+    color:  #8F8F8F;
+    font-size: 24px;
+}
+
+.precoAtual{
+    padding-right: 5px;
+    color: #1F1F1F;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.discount{
+  
+    background-color:  #E7FF86;
+    font-weight: bold;
+    border-radius: 50%;
+    color: #474747;
+    font-size: 12px;
+    border: none;
+    width: 80px;
+    height: 30px;
+    
+    
+
+}
+
+.dis{
+    position: absolute;
+    top: 160px;
+    left: 80px;
+    z-index: 1000;
+    
+}
+.cartao{
+    position: relative;
+    
+}
+
+.discount2{
+    background-color:  #E7FF86;
+    font-weight: bold;
+    border-radius: 50%;
+    color: #474747;
+    font-size: 12px;
+    border: none;
+    width: 80px;
+    height: 30px;
+}
+
+.dis2{
+    position: absolute;
+    top: 160px;
+    left: 370px;
+
+}
+.preco{
+    padding-bottom: 2rem;
+}
