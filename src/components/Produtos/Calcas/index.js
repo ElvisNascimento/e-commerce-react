@@ -5,7 +5,7 @@ export default function Calças(){
         <div>
             <h1>Pagina das Calças</h1>
 
-            <Link to='/Home'>
+            <Link to='/'>
                 <Button variant='outlined' >Voltar pro inicio</Button>
             </Link>
         </div>
