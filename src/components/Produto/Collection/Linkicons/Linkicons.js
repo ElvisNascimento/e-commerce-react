@@ -1,24 +1,30 @@
 import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.css";
 import React from "react";
+import { Button } from '@mui/material';
+//import imagem from "./produto/Collection/img/imgframes/frame10.png"
+
 import './index.css'
+
 
 
 
 export default function Linkicons(){
     return(
-        <div className="texto">
-            <p>Coleções em destaque</p>
-            <div>
+        <section>
+            <div className='card-deck d-flex justify-content-center' >
+                <p>Coleções em destaque</p>
+            </div>
+            <div className='d-flex d-flex-row justify-content-center'>
                 <nav>
                     <Link to="/"></Link>
-                    <Link to="/Camisetas">Camisetas</Link>
-                    <Link to="/Calcas" > Calças</Link>
-                    <Link to="/Bones"> Bonés</Link>
-                    <Link to="/Headphones">Headphones</Link>
-                    <Link to="/Tenis">Tênis</Link>
+                    <Button><Link to="/Camisetas">Camisetas</Link></Button>
+                    <Button><Link to="/Calcas" > Calças</Link></Button>
+                    <Button><Link to="/Bones"> Bonés</Link></Button>
+                    <Button><Link to="/Headphones">Headphones</Link></Button>
+                    <Button><Link to="/Tenis">Tênis</Link></Button>
                 </nav>
             </div>
-        </div>
+        </section>
     );
 }
