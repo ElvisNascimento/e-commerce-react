@@ -9,7 +9,7 @@ import Headset from '../../../img/Headset.png'
 export default function Collection() {
     return (
         <div className="container-md container mt-2 border">
-            <div>
+            <div className='mt-2'>
                 <p>Coleções em destaque</p>
             </div>
             <section className='card-deck d-flex justify-content-center' >
