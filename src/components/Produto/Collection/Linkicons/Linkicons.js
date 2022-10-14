@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.css";
 import React from "react";
 import { Button } from '@mui/material';
-//import imagem from "./produto/Collection/img/imgframes/frame10.png"
+import FrameC from '../img/FrameC.png'
 
 import './index.css'
 
@@ -18,7 +18,9 @@ export default function Linkicons(){
             <div className='d-flex d-flex-row-row justify-content-center'>
                 <nav>
                     <Link to="/"></Link>
-                    <Button className="botao"><Link to="/Camisetas"><p className="texto">Camisetas</p></Link></Button>
+                    <div>
+                        <Button className="botao"><Link to="/Camisetas"><p className="texto"><img src={FrameC}/>Camisetas</p></Link></Button>
+                    </div>
                     <Button className="botao"><Link to="/Calcas" ><p className="texto">Calças</p></Link></Button>
                     <Button className="botao"><Link to="/Bones"><p className="texto">Bonés</p></Link></Button>
                     <Button className="botao"><Link to="/Headphones"><p className="texto">Headphones</p></Link></Button>
