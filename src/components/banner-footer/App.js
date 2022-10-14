@@ -1,28 +1,17 @@
-// import Produtos from "./components/Produtos/index.js";
 import React, { useState } from "react";
 import {Routes, Route, Navigate, BrowserRouter} from 'react-router-dom'
 import Header from "./components/Header/index.js";
 import Footer from "./components/Footer/index.js";
 import BannerFooter from "./components/banner-footer/index.js";
 
-export default function App() {
+export default function BannerFooter() {
   
 
   return (
     
       <>
-      <BrowserRouter>
-      
-      <bannerFooter/>
-      <Routes>
-      <Route></Route>
-      <Route></Route>
-
-      </Routes>
-      </BrowserRouter>
+    <BannerFooter/>
       </>
     
   )
 }
-
-
