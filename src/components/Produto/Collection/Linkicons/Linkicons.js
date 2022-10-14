@@ -13,16 +13,16 @@ export default function Linkicons(){
     return(
         <section>
             <div className='card-deck d-flex justify-content-center' >
-                <p>Coleções em destaque</p>
+                <p className="titulo">Coleções em destaque</p>
             </div>
-            <div className='d-flex d-flex-row justify-content-center'>
+            <div className='d-flex d-flex-row-row justify-content-center'>
                 <nav>
                     <Link to="/"></Link>
-                    <Button><Link to="/Camisetas">Camisetas</Link></Button>
-                    <Button><Link to="/Calcas" > Calças</Link></Button>
-                    <Button><Link to="/Bones"> Bonés</Link></Button>
-                    <Button><Link to="/Headphones">Headphones</Link></Button>
-                    <Button><Link to="/Tenis">Tênis</Link></Button>
+                    <Button className="botao"><Link to="/Camisetas">Camisetas</Link></Button>
+                    <Button className="botao"><Link to="/Calcas" > Calças</Link></Button>
+                    <Button className="botao"><Link to="/Bones"> Bonés</Link></Button>
+                    <Button className="botao"><Link to="/Headphones">Headphones</Link></Button>
+                    <Button className="botao"><Link to="/Tenis">Tênis</Link></Button>
                 </nav>
             </div>
         </section>

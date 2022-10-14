@@ -1,5 +1,30 @@
-.link {
-    
-    color: black;
-    
+.titulo {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    color: #474747;
+
+}
+
+.botao {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+    border-radius: 150px;
+
+
+    width: 104px;
+    height: 104px;
+
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.05);
+
 }
