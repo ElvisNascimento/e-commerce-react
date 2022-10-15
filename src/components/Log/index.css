@@ -1,9 +1,15 @@
-form {
-    background-color: black;
-    margin: 15px;
+.navHome img {
+    height: 20px;
 }
 
-form a {
+form#formLog {
+    background-color: white;
+    margin-top: 90px;
+    margin-bottom: 100px;
+    width: 400px;
+}
+
+form#formLog a {
     color: black;
 }
 
@@ -15,7 +21,11 @@ div#pagLog {
     background: linear-gradient(90deg, rgb(203, 202, 253) 0%, rgb(220, 215, 245) 100%);
 }
 
-button.btn {
+form#formLog button {
     background-color: #c92071;
     color: white;
+}
+
+img.tenis1 {
+    
 }

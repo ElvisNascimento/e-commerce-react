@@ -1,5 +1,5 @@
-import React from "react";
 import "./index.css";
+import React from "react";
 import Logo from "./img/LogoDigital.png";
 import Tenis1 from "./img/tenis1.png";
 import Tenis2 from "./img/tenis2.png";
@@ -8,13 +8,13 @@ export default function Log() {
     return (
         <React.Fragment>
             <div className="container-md container m-3 border">
-                <div className="">
+                <div className="navHome">
                     <img src={Logo} />
                 </div>
             </div>
             <div id="pagLog" className="d-flex justify-content-center border">
                 <div className="d-flex justify-content-start border">
-                    <form className="form-control border">
+                    <form id="formLog" className="form-control border">
                         <div>
                         <h2><strong>Acesse sua conta</strong></h2>
                         <p>Novo Cliente? Então registre-se <a href="">aqui</a>.</p>
@@ -39,8 +39,8 @@ export default function Log() {
                     </form>
                 </div>
                 <div className="d-flex justify-content-end border">
-                    <img className="mb-5" src={Tenis1} />
-                    <img className="mt-5" src={Tenis2} />
+                    <img className="tenis1" src={Tenis1} />
+                    <img className="tenis2" src={Tenis2} />
                 </div>
             </div>
         </React.Fragment>
