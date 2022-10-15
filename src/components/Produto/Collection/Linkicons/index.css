@@ -12,24 +12,17 @@
 
 .botao {
     margin-top: 20px;
-    display: flex;
-    
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
     gap: 10px;
-    border-radius: 150px;
-
     width: 104px;
     height: 104px;
-
     background: #FFFFFF;
     box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.05);
+    border-radius: 150px;
 
 }
 
 .texto {
+    
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;

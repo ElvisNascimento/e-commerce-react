@@ -14,18 +14,33 @@ import './index.css'
 
 export default function Linkicons(){
     return(
-        <section>
+        <section >
             <div className='card-deck d-flex justify-content-center' >
                 <p className="titulo">Coleções em destaque</p>
             </div>
-            <div className='d-flex d-flex-row justify-content-center'>
-                <nav>
+            <div >
+                <nav className='d-flex d-flex-row-row justify-content-center'>
                     <Link to="/"></Link>
-                        <Button className="botao"><Link to="/Camisetas"><p className="texto"><img src={FrameC}/>Camisetas</p></Link></Button>
-                        <Button className="botao"><Link to="/Calcas" ><p className="texto"><img src={FrameCa}/>Calças</p></Link></Button>
-                        <Button className="botao"><Link to="/Bones"><p className="texto"><img src={FrameCa}/>Bonés</p></Link></Button>
-                        <Button className="botao"><Link to="/Headphones"><p className="texto"><img src={FrameH}/>Headphones</p></Link></Button>                  
-                        <Button className="botao"><Link to="/Tenis"><p className="texto"><img src={FrameS}/>Tênis</p></Link></Button>
+                    <div className="card-deck">
+                        <Button className="botao"><Link to="/Camisetas"><img src={FrameC}/></Link></Button>
+                        <p className="texto">Camisetas</p>
+                    </div>
+                    <div className="card-deck">   
+                        <Button className="botao"><Link to="/Calcas" ><img src={FrameCa}/></Link></Button>
+                        <p className="texto">Calças</p>
+                    </div>
+                    <div className="card-deck">
+                        <Button className="botao"><Link to="/Bones"><img src={FrameCa}/></Link></Button>
+                        <p className="texto">Bonés</p>
+                    </div>
+                    <div className="card-deck">
+                        <Button className="botao"><Link to="/Headphones"><img src={FrameH}/></Link></Button>
+                        <p className="texto">Headphones</p>
+                    </div>
+                    <div className="card-deck">
+                        <Button className="botao"><Link to="/Tenis"><img src={FrameS}/></Link></Button>
+                        <p className="texto">Tênis</p>
+                    </div>
                 </nav>
             </div>
         </section>
