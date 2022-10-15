@@ -33,13 +33,13 @@ let CarrinhoHover = () => {
     </React.Fragment>
 }
     return (
-        <div className="_container container-md border">
-            <div className="row border d-flex justify-content-center align-content-center align-items-center">
-                <div className="col-3 ms-5 ps-5 border"><img src={LogoDigital}/></div>
-                <div className="col-5 ms-0 border"><Buscar/></div>
-                <div className="col border"><Link className="cadastro">Cadastre-se</Link></div>
-                <div className="col border"><Link to={'/'} className="btn _botaoEntrar">Entrar</Link></div>
-                <div className="col border">
+        <div className="_container container-md">
+            <div className="row d-flex justify-content-center align-content-center align-items-center">
+                <div className="col-3 ms-5 ps-5 logo"><img src={LogoDigital}/></div>
+                <div className="col-5 ms-0"><Buscar/></div>
+                <div className="col cadastro"><Link className="cadastro">Cadastre-se</Link></div>
+                <div className="col entrar"><Link to={'/'} className="btn _botaoEntrar">Entrar</Link></div>
+                <div className="col carrinho">
                     <div>
                     <IconButton onClick={() => setExibir(!exibir)} aria-label="cart" data-mui-toggle="dropdown" >
                     <CarrinhoHover />
@@ -50,8 +50,8 @@ let CarrinhoHover = () => {
                     </div>
                 </div>
             </div>
-            <div className="_head_Dois border">
-                <div className=" border"><NavBar/></div>
+            <div className="_head_Dois">
+                <div><NavBar/></div>
             </div>
         </div>
     )
