@@ -1,10 +1,8 @@
 // import Produtos from "./components/Produtos/index.js";
 import React, { useState } from "react";
 import {Routes, Route} from 'react-router-dom';
-
 //import Trabalhe from "./Pages/Categorias/Tenis/tenis.js";
 import Home from "./Pages/Home/index.js";
-
 import Bones from "./components/Produtos/Bones/";
 import Calcas from "./components/Produtos/Calcas";
 import Camisetas from "./components/Produtos/Camisetas";
@@ -32,7 +30,6 @@ export default function App() {
           <Route path="/headphones" element={<Headphones/>}/>
           <Route path="/tenis" element={<Tenis/>}/>
           <Route path='/cadastro' element={<Cadastro/>}/>
-        
         </Routes>
           
                     
