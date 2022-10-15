@@ -10,10 +10,13 @@ export default function TodosProdutos() {
             <div className="container cabecalho">
                 <div className="body">
                     <div className="div1">
+                        {/* cabeca */}
                         <div>Resultados para “Tênis”</div>
                     </div>
                     <div className="div2">
+                        {/* sidebar */}
                         <div>Resultados para “Tênis”</div>
+                        {/* main */}
                         <div>Resultados para “Tênis”</div>
                     </div>
                 </div>
