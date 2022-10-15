@@ -9,10 +9,9 @@
     flex-direction: column;
     align-items: center;
     background-color: rgb(240, 240, 240);
-    height: auto;
-    
+    width: 100%;
+    height: auto; 
 }
-
 .div1 {
     display: flex;
     justify-content: space-between;
@@ -20,13 +19,11 @@
     width: 90%;
     height: 100px;
 }
-
 .div2 {
     display: flex;
     width: 90%;
     height: 2100px;
 }
-
 .divConteudo {
     display: flex;
     flex-flow: wrap row;
@@ -37,20 +34,19 @@
     width: 904px;
     height: 2000px;
 }
-
 .formTodosProdutos {
     display: flex;
     flex-direction: column;
-    padding: 0 30px;
-    width: 280px;
+    padding-left: 30px;
+    width: 240px;
     height: 720px;
     background: #FFFFFF;
     border-radius: 4px;
 }
 
 .customCheck {
-    padding: 10px 20px;
-    width: 20px;
+    padding: 10px;
+    width: 2.5rem;
     height: 28px;
 }
 .custonStrong {
@@ -62,7 +58,7 @@
     margin-bottom: 0.7rem; 
 }
 .customRadio {
-    padding-left: 0;
+    padding-left: 0px;
     width: 20px;
     height: 28px;
 }
