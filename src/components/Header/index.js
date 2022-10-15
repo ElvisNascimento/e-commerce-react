@@ -35,24 +35,24 @@ export default function Header() {
             <div className="actionsHeader">
                 <div className=" logo">
                     <div>
-                        <img style={{height:33}} src={LogoDigital} />
+                        <img style={{ height: 33 }} src={LogoDigital} />
                     </div>
                 </div>
                 <div className="buscar"><Buscar /></div>
-                <div className="border cadastro"><Link className="cadastro">Cadastre-se</Link></div>
-                <div className="border entrar"><Link to={'/'} ><button className="btn ">Entrar</button></Link></div>
-                <div className="border carrinho">
+                <div className=" cadastro"><Link className="cadastro">Cadastre-se</Link></div>
+                <div className=" entrar"><Link to={'/'} ><button className="btn botaoEntrar">Entrar</button></Link></div>
+                <div className=" carrinho">
                     <div>
                         <IconButton onClick={() => setExibir(!exibir)} aria-label="cart" data-mui-toggle="dropdown" >
                             <CarrinhoHover />
                             <StyledBadge badgeContent={2} color="error">
-                                <ShoppingCartIcon />
+                                <ShoppingCartIcon style={{ color: '#C92071' }} />
                             </StyledBadge>
                         </IconButton>
                     </div>
                 </div>
             </div>
-            <div className="border navHeader">
+            <div className=" navHeader">
                 <div><NavBar /></div>
             </div>
         </div>
