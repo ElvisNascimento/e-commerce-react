@@ -1,14 +1,17 @@
 // import Produtos from "./components/Produtos/index.js";
 import React, { useState } from "react";
 import {Routes, Route} from 'react-router-dom';
-import Bones from "./Pages/Categorias/Bones/bones.js";
-import Calcas from "./Pages/Categorias/Calcas/calca.js";
-import Camisetas from "./Pages/Categorias/Camisetas/camisetas.js";
-import Headphones from "./Pages/Categorias/Headphones/head.js";
-import Cadastro from "./Pages/Categorias/Trabalhe/index.js";
-import Trabalhe from "./Pages/Categorias/Tenis/index.js";
+
+//import Trabalhe from "./Pages/Categorias/Tenis/tenis.js";
 import Home from "./Pages/Home/index.js";
-import TodosProdutos from "./Pages/Produtos/index.jsx";
+
+import Bones from "./components/Produtos/Bones/";
+import Calcas from "./components/Produtos/Calcas";
+import Camisetas from "./components/Produtos/Camisetas";
+import Headphones from "./components/Produtos/Headphones";
+import Tenis from "./components/Produtos/Tenis/";
+import Login from "./Pages/Login/index.js";
+
 export const AppContext = React.createContext();
 
 export default function App() {
@@ -17,17 +20,23 @@ export default function App() {
   return (
     <AppContext.Provider value={{ carrinho, setCarrinho }}>
       <React.Fragment>
+           
         <Routes>
           <Route path={'/'} element={<Home/>}/>
-          <Route path={'/home'} element={<Home/>}/>
-          <Route path={'/produtos'} element={<TodosProdutos/>}/>
-          <Route path={'/categorias/bones'} element={Bones()}/>
-          <Route path={'/categorias/calcas'}element={Calcas()}/>
-          <Route path={'/categorias/camisetas'} element={Camisetas()} />
-          <Route path={'/categorias/headphones'} element={Headphones()}/>
-          <Route path={'/categorias/tenis'} element={Trabalhe()} />
-          <Route path={'/cadastro'}element={<Cadastro/>}/>
+          <Route path={'/Pages/Home'} element={<Home/>}/>
+          <Route path={'/Pages/Login'} element={<Login/>}/>
+          {/* <Route path={'/Pages/Produtos'} element={<TodosProdutos/>}/> */}
+          <Route path="camisetas" element={<Camisetas/>}/>
+          <Route path="calcas" element={<Calcas/>}/>
+          <Route path="bones" element={<Bones/>}/>
+          <Route path="headphones" element={<Headphones/>}/>
+          <Route path="tenis" element={<Tenis/>}/>
+        
         </Routes>
+          
+                    
+                    
+            
       </React.Fragment>
     </AppContext.Provider>
   )
