@@ -1,0 +1,58 @@
+.criar{
+    height: 36px;
+    width: 440px;
+    top: 150px;
+    left: 344px;
+}
+span.conta{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: 1px;
+    top: 150px;
+    left: 344px;
+}
+.cad{
+    background-color: white;
+}
+.quebra{
+    width: 690px;
+    top: 280px;
+    left: 375px;
+}
+.formu1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    width: 750px;
+    height: 538px;
+    left: 345px;
+    top: 208px;
+    background: white;
+    border-radius: 4px;
+}
+.info{
+    width: 165px;
+    height: 22px;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.75px;
+    text-align: center;
+    color: #474747;
+}
+.labelNome{
+    width: 427.35px;
+    height: 24px;
+    left: 375px;
+    top: 300px;
+    color: #474747;
+    font-weight: 700px;
+    font-size: 12px;
+    letter-spacing: 0.75px;
+}
+.inputNome{
+    width: 522.24px;
+    height: 28px;
+    
+}
