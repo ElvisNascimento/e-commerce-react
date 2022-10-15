@@ -4,18 +4,20 @@ import Footer from "../../components/Footer";
 import Collection from "../../components/Produto/Collection"
 import Linkicons from "../../components/Produto/Collection/Linkicons/Linkicons.js";
 import ProdutosAlta from "../../components/ProdutosAlta/produtosAlta";
+import BannerFooter from "../../components/BannerFooter";
+import Carrosel from "../../components/Carrosel";
 
 let Home = () => {
     return(
         <React.Fragment>
                 <Header/>
-
+                <Carrosel/>
                 <ProdutosAlta/>
                 <Collection/>
-                <Linkicons/> 
+                <Linkicons/>
+                {/* <BannerFooter/> */}
                 <Footer/>
         </React.Fragment>
     );
-
 }
 export default Home;
