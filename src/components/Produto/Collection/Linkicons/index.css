@@ -1,3 +1,7 @@
+.cont{
+    margin-bottom: 123px;
+}
+
 .titulo {
     margin-top: 100px;
     font-family: 'Inter';
@@ -12,12 +16,12 @@
 
 .botao {
     margin-top: 20px;
-    gap: 10px;
+    
     width: 104px;
     height: 104px;
     background: #FFFFFF;
     box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.05);
-    border-radius: 150px;
+    
 
 }
 
