@@ -34,12 +34,7 @@ export default function App() {
           <Route path="/headphones" element={<Headphones/>}/>
           <Route path="/tenis" element={<Tenis/>}/>
           <Route path='/cadastro' element={<Cadastro/>}/>
-        
         </Routes>
-          
-                    
-                    
-            
       </React.Fragment>
     </AppContext.Provider>
   )
