@@ -1,5 +1,56 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E5E5;
+    height: auto;
+}
+
+.div1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 100px;
+}
+
+.div2 {
+    display: flex;
+    background-color: rgb(86, 106, 163);
+    width: 90%;
+    height: 2100px;
+}
+
+.divConteudo {
+    background-color: rgb(0, 250, 13);
+    opacity: 0.4;
+    width: 90%;
+    height: 2000px;
+}
+
+.formTodosProdutos {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 308px;
+    height: 720px;
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+
+.customCheck {
+    padding: 10px 20px;
+    width: 20px;
+    height: 28px;
+}
+.customRadio {
+    padding-left: 0;
+    width: 20px;
+    height: 28px;
 }

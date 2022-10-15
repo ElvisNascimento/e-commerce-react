@@ -5,6 +5,7 @@ export default function Produto(props) {
         <div>
             <span>
                 {props.titulo}
+                
             </span>
             <Comprar titulo={props.titulo} />
         </div>
