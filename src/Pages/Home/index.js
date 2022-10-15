@@ -1,14 +1,15 @@
 import React from "react";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
-import Produtos from "../../components/Produtos";
-import ProdutosAlta from "../../components/ProdutosAlta/produtosAlta";
+import Collection from "../../components/Produto/Collection"
+import Linkicons from "../../components/Produto/Collection/Linkicons/Linkicons.js";
+
 let Home = () => {
     return(
         <React.Fragment>
                 <Header/>
-                {/* <Produtos /> */}
-                <ProdutosAlta/>
+                <Collection/>
+                <Linkicons/> 
                 <Footer/>
         </React.Fragment>
     );

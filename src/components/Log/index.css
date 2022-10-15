@@ -1,0 +1,21 @@
+form {
+    background-color: black;
+    margin: 15px;
+}
+
+form a {
+    color: black;
+}
+
+div.d-flex.justify-content-end {
+    height: 30rem;
+}
+
+div#pagLog {
+    background: linear-gradient(90deg, rgb(203, 202, 253) 0%, rgb(220, 215, 245) 100%);
+}
+
+button.btn {
+    background-color: #c92071;
+    color: white;
+}
