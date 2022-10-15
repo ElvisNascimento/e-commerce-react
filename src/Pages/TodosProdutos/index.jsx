@@ -4,13 +4,12 @@ import { pink } from '@mui/material/colors';
 import Radio from '@mui/material/Radio';
 import RadioGroup from '@mui/material/RadioGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
-import FormControl from '@mui/material/FormControl';
-import FormLabel from '@mui/material/FormLabel';
 import Autocomplete from '@mui/material/Autocomplete';
 import TextField from '@mui/material/TextField';
 
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
+import Produto from "../../components/Produto";
 import './styles.css';
 
 const filtrar = [
@@ -142,7 +141,21 @@ export default function TodosProdutos() {
             </form>
           </div>
           <div className="divConteudo">
-            <h4>produtos</h4>
+            <Produto/>
+            <Produto/>
+            <Produto/>
+            <Produto/>
+            <Produto/>
+            <Produto/>
+            <Produto/>
+            <Produto/>
+            <Produto/>
+            <Produto/>
+            <Produto/>
+            <Produto/>
+            <Produto/>
+            <Produto/>
+            <Produto/>
           </div>
         </div>
       </div>
