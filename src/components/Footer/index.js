@@ -1,20 +1,21 @@
-import { BsFacebook, BsInstagram, BsTwitter } from "react-icons/bs";
+import { BsFacebook, BsInstagram, BsTwitter,BsFillTerminalFill } from "react-icons/bs";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import logo from "./logo.svg"
 
- export default function Footer () {
+export default function Footer () {
     
     return( 
         <section className="container bg bg-dark px-5">
             <div className="row text-white ">
                 <div className="col mt-5">
                     
-                    <button className="h4 bg-white border text-dark px-2 rounded-3">_</button>
-                    <span className="h3 mt-5 px-2">Digital Store</span>
+                    <img src={logo} className="mb-3 bg-"/>
+                    <span className="h2 mt-5 px-2">Digital Store</span>
 
                    <p className="mt-4 p-1 h-30 d-inline-block">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti dolores modi eum optio incidunt similique.</p>
 
-                    <div className="me-5 ">
-                        <ul className="d-flex flex-row me-5 ps-5">
+                    <div className="me-5">
+                        <ul className="d-flex flex-row col-6 justify-content-end me-5 ps-5">
                             <ul className="text-start">
                                 <a href="https://www.facebook.com/digitalcollegebr/">
                                     <BsFacebook className="text-white "/>
@@ -61,7 +62,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
                 <div className="col mt-5">
                     <span>Contato</span>
-                    <a href="https://www.google.com.br/maps/place/Digital+College+Fortaleza/@-3.7326781,-38.5125959,17z/data=!3m1!4b1!4m5!3m4!1s0x7c74991204f2b1d:0x38e3b25bd5d38768!8m2!3d-3.7326781!4d-38.5104072">
+                    <a className="nav-link hover" href="https://www.google.com.br/maps/place/Digital+College+Fortaleza/@-3.7326781,-38.5125959,17z/data=!3m1!4b1!4m5!3m4!1s0x7c74991204f2b1d:0x38e3b25bd5d38768!8m2!3d-3.7326781!4d-38.5104072">
                     <p className="mt-4 text-white">
                     Av. Santos Dumont, 1510 - 1 <br />
                     andar - Aldeota, Fortaleza - <br/>
