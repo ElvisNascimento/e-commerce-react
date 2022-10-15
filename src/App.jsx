@@ -12,6 +12,7 @@ import Headphones from "./components/Produtos/Headphones";
 import Tenis from "./components/Produtos/Tenis/";
 import Login from "./Pages/Login/index.js";
 import Cadastro from "./Pages/Cadastro/index.jsx";
+import TodosProdutos from "./Pages/TodosProdutos/index.jsx";
 
 export const AppContext = React.createContext();
 
@@ -24,20 +25,17 @@ export default function App() {
            
         <Routes>
           <Route path={'/'} element={<Home/>}/>
-          <Route path={'/home'} element={<Home/>}/>
-          <Route path={'/login'} element={<Login/>}/>
+
+          <Route path={'/Pages/Home'} element={<Home/>}/>
+          <Route path={'/Pages/Login'} element={<Login/>}/>
+          <Route path={'/Pages/Produtos'} element={<TodosProdutos/>}/>
           <Route path="/camisetas" element={<Camisetas/>}/>
           <Route path="/calcas" element={<Calcas/>}/>
           <Route path="/bones" element={<Bones/>}/>
           <Route path="/headphones" element={<Headphones/>}/>
           <Route path="/tenis" element={<Tenis/>}/>
           <Route path='/cadastro' element={<Cadastro/>}/>
-        
         </Routes>
-          
-                    
-                    
-            
       </React.Fragment>
     </AppContext.Provider>
   )
