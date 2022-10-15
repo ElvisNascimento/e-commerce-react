@@ -9,7 +9,7 @@
     padding: 4px;
     position: absolute;
     box-sizing: border-box;
-    top: 50%;
+    top: 34px;
     right: 2px;
     transform: translateY(-50%);
     /* border: 1px solid black; */
@@ -17,13 +17,16 @@
 }
 
 .input {
+    top: 34px;
     border-radius: 8px;
     height: 60px;
     padding-left: 1.5rem;
-    width: 100%;
+    width: 559px;
+    left: 384px;
     /* transition-duration: 2s; */
     border: none;
-    background-color: rgb(231, 230, 230);
+    background-color: #474747;
+    opacity: 4%;
 }
 
 /* .input-expanded {

@@ -9,3 +9,27 @@
     background-color: transparent;
 
 }
+.home{
+    width: 47px;
+    height: 28px;
+    top: 134px;
+    left: 101px;
+}
+.produto{
+    width: 47px;
+    height: 28px;
+    top: 134px;
+    left: 181px;
+}
+.cat{
+    width: 47px;
+    height: 28px;
+    top: 134px;
+    left: 287px;
+}
+.meus{
+    width: 47px;
+    height: 28px;
+    top: 134px;
+    left: 408px;
+}
