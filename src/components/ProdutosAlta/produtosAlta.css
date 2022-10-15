@@ -65,14 +65,15 @@ h5{
     border: none;
     width: 80px;
     height: 30px;
+    
+    
+
 }
 
 .dis{
     position: absolute;
-
-    top: 20px;
+    top: 10px;
     left: 20px;
-
     z-index: 1000;
     
 }
@@ -92,9 +93,7 @@ h5{
     height: 30px;
 }
 
+
 .preco{
     padding-bottom: 2rem;
 }
-
-
-
