@@ -39,13 +39,13 @@ export default function TodosProdutos() {
         </div>
         <div className="div2">
           <div className="divFiltrar">
-            <form className="form formTodosProdutos" style={{marginLeft: 0,marginTop: 0}}>
+            <form className="form formTodosProdutos" style={{ marginLeft: 0, marginTop: 0 }}>
               <strong className="custonStrongFiltrar">Filtrar Por</strong>
               <hr />
               <strong className="custonStrong">Marca</strong>
               <FormControlLabel
                 value="end"
-                control={<Checkbox size="medium" className="customCheck"   defaultChecked sx={{ color: "secondary", '&.Mui-checked': { color: pink[600], }, }} />
+                control={<Checkbox size="medium" className="customCheck" defaultChecked sx={{ color: "secondary", '&.Mui-checked': { color: pink[600], }, }} />
                 }
                 label="Adiddas"
                 labelPlacement="Adiddas"
@@ -141,21 +141,21 @@ export default function TodosProdutos() {
             </form>
           </div>
           <div className="divConteudo">
-            <Produto/>
-            <Produto/>
-            <Produto/>
-            <Produto/>
-            <Produto/>
-            <Produto/>
-            <Produto/>
-            <Produto/>
-            <Produto/>
-            <Produto/>
-            <Produto/>
-            <Produto/>
-            <Produto/>
-            <Produto/>
-            <Produto/>
+            <Produto />
+            <Produto />
+            <Produto />
+            <Produto />
+            <Produto />
+            <Produto />
+            <Produto />
+            <Produto />
+            <Produto />
+            <Produto />
+            <Produto />
+            <Produto />
+            <Produto />
+            <Produto />
+            <Produto />
           </div>
         </div>
       </div>

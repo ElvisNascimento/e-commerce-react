@@ -33,7 +33,7 @@ let CarrinhoHover = () => {
     </React.Fragment>
 }
     return (
-        <div className="_container container-md">
+        <div className="container">
             <div className="row d-flex justify-content-center align-content-center align-items-center">
                 <div className="col-3 ms-5 ps-5 logo"><img src={LogoDigital}/></div>
                 <div className="col-5 ms-0"><Buscar/></div>
