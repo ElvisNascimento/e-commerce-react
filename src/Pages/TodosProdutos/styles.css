@@ -37,7 +37,7 @@
 .formTodosProdutos {
     display: flex;
     flex-direction: column;
-    padding: 30px;
+    padding: 0 30px;
     width: 308px;
     height: 720px;
     background: #FFFFFF;
@@ -48,6 +48,14 @@
     padding: 10px 20px;
     width: 20px;
     height: 28px;
+}
+.custonStrong {
+    margin-top: 1rem;
+    margin-bottom: 0.7rem; 
+}
+.custonStrongFiltrar {
+    margin-top: 2rem;
+    margin-bottom: 0.7rem; 
 }
 .customRadio {
     padding-left: 0;

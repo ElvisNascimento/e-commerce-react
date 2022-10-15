@@ -41,9 +41,9 @@ export default function TodosProdutos() {
         <div className="div2">
           <div className="divFiltrar">
             <form className="form formTodosProdutos" style={{marginLeft: 0,marginTop: 0}}>
-              <strong>Filtrar Por</strong>
+              <strong className="custonStrongFiltrar">Filtrar Por</strong>
               <hr />
-              <strong>Marca</strong>
+              <strong className="custonStrong">Marca</strong>
               <FormControlLabel
                 value="end"
                 control={<Checkbox size="medium" className="customCheck"   defaultChecked sx={{ color: "secondary", '&.Mui-checked': { color: pink[600], }, }} />
@@ -79,9 +79,7 @@ export default function TodosProdutos() {
                 label="Puma"
                 labelPlacement="Puma"
               />
-              <br />
-              <strong>Categorias</strong>
-              <br />
+              <strong className="custonStrong">Categorias</strong>
               <FormControlLabel
                 value="end"
                 control={<Checkbox size="medium" className="customCheck" defaultChecked sx={{ color: "secondary", '&.Mui-checked': { color: pink[600], }, }} />
@@ -110,9 +108,7 @@ export default function TodosProdutos() {
                 label="Corrida"
                 labelPlacement="Corrida"
               />
-              <br />
-              <strong>Genero</strong>
-              <br />
+              <strong className="custonStrong">Genero</strong>
               <FormControlLabel
                 value="end"
                 control={<Checkbox size="medium" className="customCheck" defaultChecked sx={{ color: "secondary", '&.Mui-checked': { color: pink[600], }, }} />
@@ -134,8 +130,7 @@ export default function TodosProdutos() {
                 label="Unisex"
                 labelPlacement="Unisex"
               />
-              <br/>
-              <strong>Estado</strong>
+              <strong className="custonStrong">Estado</strong>
               <RadioGroup
                 aria-labelledby="demo-radio-buttons-group-label"
                 defaultValue="female"
