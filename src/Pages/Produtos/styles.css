@@ -3,37 +3,3 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-._container {
-    padding-top: 34px;
-    background: #FFFFFF;
-    box-shadow: 0px 10px 30px rgba(141, 114, 32, 0.05);
-    height: 192px;
-}
-._head_Um {
-    display: flex;
-    justify-content: space-around;
-    /* border: 1px solid black; */
-    height: 50%;
-    width: 100%;
-}
-
-._botaoEntrar {
-    height: 40px;
-    width: 114px;
-    border-radius: 8px;
-    color: #FFFFFF;
-    background: #C92071;
-}
-
-._head_Dois {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    display: flex;
-    justify-content: start;
-    align-items: flex-end;
-    /* border: 1px solid black; */
-    font-size: 18px;
-    height: 50%;
-    width: 80%;
-    margin-left: 84px;
-}
