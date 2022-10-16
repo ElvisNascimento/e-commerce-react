@@ -1,11 +1,12 @@
-import { BsFacebook, BsInstagram, BsTwitter,BsFillTerminalFill } from "react-icons/bs";
+import { BsFacebook, BsInstagram, BsTwitter} from "react-icons/bs";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from "./logo.svg"
+import { Link } from "react-router-dom";
 
 export default function Footer () {
     
     return( 
-        <section className="container bg bg-dark px-5">
+        <section className="bg bg-dark px-5">
             <div className="row text-white ">
                 <div className="col mt-5">
                     
@@ -40,23 +41,23 @@ export default function Footer () {
                 <div className="col mt-5">
                     <ul className="nav flex-column text-white  ">
                         <span className="px-3 ">Informação</span>
-                        <li className="nav-item mt-3"><a href="" className="nav-link text-white">Sobre Drip Store</a></li>
-                        <li className="nav-item"><a href="" className="nav-link text-white">Segurança</a></li>
-                        <li className="nav-item"><a href="" className="nav-link text-white">Wishlist</a></li>
-                        <li className="nav-item"><a href="" className="nav-link text-white">Blog</a></li>
-                        <li className="nav-item"><a href="" className="nav-link text-white">Trabalhe Conosco</a></li>
-                        <li className="nav-item"><a href="" className="nav-link text-white">Meus Pedidos</a></li>
+                        <li className="nav-item mt-3"><Link to={'/sobre'} className="nav-link text-white">Sobre Drip Store</Link></li>
+                        <li className="nav-item"><Link to={'/seguranca'} className="nav-link text-white">Segurança</Link></li>
+                        <li className="nav-item"><Link to={'/wishlist'} className="nav-link text-white">Wishlist</Link></li>
+                        <li className="nav-item"><Link to={'/blog'} className="nav-link text-white">Blog</Link></li>
+                        <li className="nav-item"><Link to={'/trabalhe'} className="nav-link text-white">Trabalhe Conosco</Link></li>
+                        <li className="nav-item"><Link to={'/pedidos'} className="nav-link text-white">Meus Pedidos</Link></li>
                     </ul>
                 </div>
 
                 <div className="col mt-5">
                     <span className="px-3">Categorias</span>
                     <ul className="nav flex-column text-white flex-direction">
-                        <li className="nav-item mt-3"><a href="" className="nav-link text-white">Camisetas</a></li>
-                        <li className="nav-item"><a href="" className="nav-link text-white">Calças</a></li>
-                        <li className="nav-item"><a href="" className="nav-link text-white">Bonés</a></li>
-                        <li className="nav-item"><a href="" className="nav-link text-white">Headphones</a></li>
-                        <li className="nav-item"><a href="" className="nav-link text-white">Tenis</a></li>
+                        <li className="nav-item mt-3"><Link to={'/camisetas'} className="nav-link text-white">Camisetas</Link></li>
+                        <li className="nav-item"><Link to={'/calcas'} className="nav-link text-white">Calças</Link></li>
+                        <li className="nav-item"><Link to={'/bones'} className="nav-link text-white">Bonés</Link></li>
+                        <li className="nav-item"><Link to={'/headphones'} className="nav-link text-white">Headphones</Link></li>
+                        <li className="nav-item"><Link to={'/tenis'} className="nav-link text-white">Tenis</Link></li>
                     </ul>
                 </div>
 
@@ -73,7 +74,7 @@ export default function Footer () {
                     (85) 3051-3411
                 </div> 
             </div>
-            <hr />
+            <hr className="text-white"/>
             <div className="text-white text-center">@ 2022 Digital College</div>
             <br />
 
