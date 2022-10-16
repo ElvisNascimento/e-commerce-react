@@ -1,5 +1,5 @@
 import React from "react";
-import Log from "../../components/Log";
+import Log from "../../components/Login";
 import Footer from "../../components/Footer";
 
 export default function Login() {

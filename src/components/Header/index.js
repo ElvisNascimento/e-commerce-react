@@ -17,41 +17,45 @@ const StyledBadge = styled(Badge)(({ theme }) => ({
         padding: '0 4px',
     },
 }));
-
-
 export default function Header() {
-    const [exibir,setExibir] = useState(true)
-let CarrinhoHover = () => {
-    <React.Fragment>
-        <div style={{backgroundColor: 'gray', display: exibir ? 'flex' : 'none', flexDirection: 'column', position: 'absolute'}}>
-        <span>Meu Carrinho</span>
-        <span>Produto 1</span>
-        <span>Produto 2</span>
-        <span>Valor total</span>
-        <Link>Ver Carrinho</Link>
-        </div>
-    </React.Fragment>
-}
+    const [exibir, setExibir] = useState(true)
+    let CarrinhoHover = () => {
+        <React.Fragment>
+            <div style={{ backgroundColor: 'gray', display: exibir ? 'flex' : 'none', flexDirection: 'column', position: 'absolute' }}>
+                <span>Meu Carrinho</span>
+                <span>Produto 1</span>
+                <span>Produto 2</span>
+                <span>Valor total</span>
+                <Link>Ver Carrinho</Link>
+            </div>
+        </React.Fragment>
+    }
     return (
-        <div className="_container container-md">
-            <div className="row d-flex justify-content-center align-content-center align-items-center">
-                <div className="col-3 ms-5 ps-5 logo"><img src={LogoDigital}/></div>
-                <div className="col-5 ms-0"><Buscar/></div>
-                <div className="col cadastro"><Link to={'/cadastro'} className="cadastro">Cadastre-se</Link></div>
-                <div className="col entrar"><Link to={'/login'} className="btn _botaoEntrar">Entrar</Link></div>
-                <div className="col carrinho">
+
+        <div className="container headerBase">
+            <div className="actionsHeader">
+                <div className=" logo">
                     <div>
-                    <IconButton onClick={() => setExibir(!exibir)} aria-label="cart" data-mui-toggle="dropdown" >
-                    <CarrinhoHover />
-                        <StyledBadge badgeContent={2} color="error">
-                            <ShoppingCartIcon />
-                        </StyledBadge>
-                    </IconButton>
+                        <img style={{ height: 33 }} src={LogoDigital} />
+                    </div>
+                </div>
+                <div className="buscar"><Buscar /></div>
+                <div className=" cadastro"><Link to={'/cadastro'} className="cadastro">Cadastre-se</Link></div>
+                <div className=" entrar"><Link to={'/login'} ><button className="btn botaoEntrar">Entrar</button></Link></div>
+                <div className=" carrinho">
+
+                    <div>
+                        <IconButton onClick={() => setExibir(!exibir)} aria-label="cart" data-mui-toggle="dropdown" >
+                            <CarrinhoHover />
+                            <StyledBadge badgeContent={2} color="error">
+                                <ShoppingCartIcon style={{ color: '#C92071' }} />
+                            </StyledBadge>
+                        </IconButton>
                     </div>
                 </div>
             </div>
-            <div className="_head_Dois">
-                <div><NavBar/></div>
+            <div className=" navHeader">
+                <div><NavBar /></div>
             </div>
         </div>
     )

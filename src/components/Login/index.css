@@ -25,7 +25,12 @@ form#formLog button {
     background-color: #c92071;
     color: white;
 }
-
-img.tenis1 {
-    
+.fb{
+    color: #1877F2;
+    width: 24px;
+    height: 23.85px;
+    margin-left: 24px;
+}
+.gmail{
+    margin-left: 20px;
 }
