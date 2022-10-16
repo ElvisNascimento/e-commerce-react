@@ -1,31 +1,23 @@
-.wrapper {
+.buscarHeader {
     display: flex;
-    justify-content: flex-end;
-    position: relative;
-}
-
-.icon {
-    font-size: 50px;
-    padding: 4px;
-    position: absolute;
+    justify-content: left;
     box-sizing: border-box;
-    top: 50%;
-    right: 2px;
-    transform: translateY(-50%);
-    /* border: 1px solid black; */
-
+    background-color: rgb(225, 225, 225);
+    border-radius: 8px;
+    width: 500px;
+    height: 56px;
 }
 
 .input {
-    border-radius: 8px;
-    height: 60px;
     padding-left: 1.5rem;
     width: 100%;
-    /* transition-duration: 2s; */
     border: none;
-    background-color: rgb(231, 230, 230);
+    background-color: transparent;
 }
 
-/* .input-expanded {
-    width: 100%;
-} */
+.iconeLupa {
+    /* background-color: red; */
+    z-index: 1000;
+    font-size: 2rem;
+    color: #999;
+}

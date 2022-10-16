@@ -1,0 +1,64 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+    height: auto; 
+}
+.div1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 100px;
+}
+.div2 {
+    display: flex;
+    width: 90%;
+    height: 2100px;
+}
+.divConteudo {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+    align-content: flex-start;
+    margin:  0px 0px;
+    padding: 0px 0px;
+    width: 904px;
+    height: 2000px;
+}
+.formTodosProdutos {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    width: 240px;
+    height: 720px;
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+
+.customCheck {
+    padding: 10px;
+    width: 2.5rem;
+    height: 28px;
+}
+.custonStrong {
+    margin-top: 1rem;
+    margin-bottom: 0.7rem; 
+}
+.custonStrongFiltrar {
+    margin-top: 2rem;
+    margin-bottom: 0.7rem; 
+}
+.customRadio {
+    padding-left: 0px;
+    width: 20px;
+    height: 28px;
+}

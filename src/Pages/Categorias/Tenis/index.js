@@ -1,4 +1,4 @@
-export default function Trabalhe(){
+export default function Tenis(){
     return(
         <div>
             <h1>

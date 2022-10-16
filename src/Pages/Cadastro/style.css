@@ -1,0 +1,286 @@
+.logo{
+    width: 1440px;
+    height: 80px;
+    height: 80px;
+    border-radius: 0px;
+    padding: 25px 100px 25px 100px;
+
+}
+.criar{
+    height: 36px;
+    width: 440px;
+    margin-left: 344px;
+    margin-top: 70px;
+    
+}
+span.conta{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: 1px;
+}
+.cad{
+    background-color: white;
+}
+.formu1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    width: 750px;
+    height: 538px;
+    background: white;
+    border-radius: 4px;
+    margin-top: 22px;
+    margin-left: 345px;
+    gap: 20px;
+}
+.info{
+    width: 165px;
+    height: 22px;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.75px;
+    text-align: center;
+    color: #474747;
+}
+.quebra{
+    width: 690px;
+}
+.labelNome{
+    width: 427.53px;
+    height: 24px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
+    color: #474747;
+}
+.inputNome{
+    border: none;
+    width: 522.24px;
+    height: 28px;
+    color: #666666;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 21px;
+}
+.labelCpf{
+    width: 427.53px;
+    height: 24px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
+    color: #474747;
+    margin-top: 20px;
+}
+.inputCpf{
+    border: none;
+    width: 522.24px;
+    height: 28px;
+    color: #666666;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 21px;
+}
+.labelEmail{
+    width: 427.53px;
+    height: 24px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
+    color: #474747;
+    margin-top: 20px;
+}
+.inputEmail{
+    border: none;
+    width: 522.24px;
+    height: 28px;
+    color: #666666;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 21px;
+}
+.labelCelular{
+    width: 427.53px;
+    height: 24px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
+    color: #474747;
+    margin-top: 20px;
+}
+.inputCelular{
+    border: none;
+    width: 522.24px;
+    height: 28px;
+    color: #666666;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 21px;
+}
+.formu2{
+    width: 750px;
+    height: 647px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    gap: 20px;
+    margin-top: 10px;
+    margin-left: 345px;
+    background: white;
+    border-radius: 4px;
+}
+.infoE{
+    width: 179px;
+    height: 22px;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.75px;
+    text-align: center;
+    color: #474747;
+}
+.labelEndereco{
+    width: 427.53px;
+    height: 24px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
+    color: #474747;
+}
+.inputEndereco{
+    border: none;
+    width: 522.24px;
+    height: 28px;
+    color: #666666;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 21px;
+}
+.labelBairro{
+    width: 427.53px;
+    height: 24px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
+    color: #474747;
+    margin-top: 20px;
+}
+.inputBairro{
+    border: none;
+    width: 522.24px;
+    height: 28px;
+    color: #666666;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 21px;
+}
+.labelCidade{
+    width: 427.53px;
+    height: 24px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
+    color: #474747;
+    margin-top: 20px;
+}
+.inputCidade{
+    border: none;
+    width: 522.24px;
+    height: 28px;
+    color: #666666;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 21px;
+}
+.labelCep{
+    width: 427.53px;
+    height: 24px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
+    color: #474747;
+    margin-top: 20px;
+}
+.inputCep{
+    border: none;
+    width: 522.24px;
+    height: 28px;
+    color: #666666;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 21px;
+}
+.labelComp{
+    width: 427.53px;
+    height: 24px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
+    color: #474747;
+    margin-top: 20px;
+}
+.inputComp{
+    border: none;
+    width: 522.24px;
+    height: 28px;
+    color: #666666;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 21px;
+}
+.check{
+    width: 754px;
+    margin-left: 344px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.cBox{
+    border: 1px solid #C92071;
+    width: 22px;
+    height: 22px;
+    border-radius: 2px;
+    accent-color: #C92071;
+}
+.cBoxLabel{
+    width: 718px;
+    height: 44px;
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #474747;
+    letter-spacing: 0.25px
+}
+.btnCad{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 344px;
+    margin-bottom: 153px;
+
+}
+.btnConf{
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.75px;
+    color: #F5F5F5;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    width: 750px;
+    height: 48px;
+    background-color: #C92071;
+}

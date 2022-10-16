@@ -1,0 +1,8 @@
+.carrocelBase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:red;
+    width: auto;
+    height: 680px;
+}
