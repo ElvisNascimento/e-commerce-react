@@ -4,11 +4,12 @@ import Logo from "./img/LogoDigital.png";
 import Tenis1 from "./img/tenis1.png";
 import Tenis2 from "./img/tenis2.png";
 import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
+import { Link } from "react-router-dom";
 
 export default function Login() {
     return (
         <React.Fragment>
-            <div className="container-md container m-3 border">
+            <div className="md m-3 border">
                 <div className="">
                     <img src={Logo} />
                 </div>
@@ -18,7 +19,7 @@ export default function Login() {
                     <form className="form-control border">
                         <div>
                         <h2><strong>Acesse sua conta</strong></h2>
-                        <p>Novo Cliente? Então registre-se <a href="">aqui</a>.</p>
+                        <p>Novo Cliente? Então registre-se <Link to={'/cadastro'}>aqui</Link>.</p>
                         </div>
                         <div className="mb-3 border">
                             <label className="form-label"><strong>Login *</strong></label>
@@ -29,7 +30,7 @@ export default function Login() {
                             <input type="password" className="form-control" placeholder="Insira sua senha"/>
                         </div>
                         <div>
-                            <a href="">Esqueci minha senha</a>
+                            <Link to={'/'}>Esqueci minha senha</Link>
                         </div>
                         <div className="d-grid gap-2 col-auto mx-auto mt-4">
                             <button type="submit" className="btn">Acessar Conta</button>
@@ -44,7 +45,7 @@ export default function Login() {
                                 <path d="M0 5.45676V7.63856L5.45456 11.7295V4.63856L3.92728 3.49312C2.30864 2.27948 0 3.43448 0 5.45676H0Z" fill="#E51C19"/>
                             </svg>
 
-                                 <FacebookRoundedIcon className="fb"/></p>
+                                <FacebookRoundedIcon className="fb"/></p>
                         </div>
                     </form>
                 </div>

@@ -12,8 +12,8 @@ let Home = () => {
         <React.Fragment>
                 <Header/>
                 <Carrosel/>
-                <ProdutosAlta/>
                 <Collection/>
+                <ProdutosAlta/>
                 <Linkicons/>
                 {/* <BannerFooter/> */}
                 <Footer/>
