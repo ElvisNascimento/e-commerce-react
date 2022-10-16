@@ -1,4 +1,4 @@
-import { BsFacebook, BsInstagram, BsTwitter,BsFillTerminalFill } from "react-icons/bs";
+import { BsFacebook, BsInstagram, BsTwitter} from "react-icons/bs";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from "./logo.svg"
 import { Link } from "react-router-dom";
@@ -74,7 +74,7 @@ export default function Footer () {
                     (85) 3051-3411
                 </div> 
             </div>
-            <hr />
+            <hr className="text-white"/>
             <div className="text-white text-center">@ 2022 Digital College</div>
             <br />
 
