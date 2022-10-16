@@ -1,11 +1,11 @@
-import { BsFacebook, BsInstagram, BsTwitter,BsFillTerminalFill } from "react-icons/bs";
+import { BsFacebook, BsInstagram, BsTwitter} from "react-icons/bs";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from "./logo.svg"
 
 export default function Footer () {
     
     return( 
-        <section className="container bg bg-dark px-5">
+        <section className="bg bg-dark px-5">
             <div className="row text-white ">
                 <div className="col mt-5">
                     
@@ -73,7 +73,7 @@ export default function Footer () {
                     (85) 3051-3411
                 </div> 
             </div>
-            <hr />
+            <hr className="text-white"/>
             <div className="text-white text-center">@ 2022 Digital College</div>
             <br />
 
