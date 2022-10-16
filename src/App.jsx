@@ -13,6 +13,7 @@ import Tenis from "./components/Produtos/Tenis/";
 import Login from "./Pages/Login/index.js";
 import Cadastro from "./Pages/Cadastro/index.jsx";
 import TodosProdutos from "./Pages/TodosProdutos/index.jsx";
+import DetalhesProduto from "./components/DetalhesProduto/DetalhesProduto.js";
 
 export const AppContext = React.createContext();
 
@@ -34,6 +35,7 @@ export default function App() {
           <Route path="/headphones" element={<Headphones/>}/>
           <Route path="/tenis" element={<Tenis/>}/>
           <Route path='/cadastro' element={<Cadastro/>}/>
+          <Route path='/detalhesProduto' element={<DetalhesProduto/>}/>
         </Routes>
       </React.Fragment>
     </AppContext.Provider>
