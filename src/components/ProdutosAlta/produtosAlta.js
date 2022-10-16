@@ -5,6 +5,7 @@ import Sneakers from './skeakers.png'
 export default function ProdutosAlta() {
     return (
         <>
+            <div className="contanier">
             <div className=" container ProdutosAlta ">
                 <div className=" d-flex">
                     <div className="col-6">
@@ -96,6 +97,7 @@ export default function ProdutosAlta() {
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         </>
     )
