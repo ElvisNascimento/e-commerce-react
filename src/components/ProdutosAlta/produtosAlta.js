@@ -1,6 +1,6 @@
 import "./produtosAlta.css";
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
-import Sneakers from './skeakers.png'
+import Sneakers from './skeakers.png';
 
 export default function ProdutosAlta() {
     return (
