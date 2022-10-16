@@ -6,7 +6,6 @@ import FrameC from '../img/FrameC.png'
 import FrameCa from '../img/FrameCa.png'
 import FrameH from '../img/FrameH.png'
 import FrameS from '../img/FrameS.png'
-
 import './index.css'
 export default function Linkicons(){
     return(
