@@ -5,7 +5,7 @@ import Tenis1 from "./img/tenis1.png";
 import Tenis2 from "./img/tenis2.png";
 import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
 
-export default function Log() {
+export default function Login() {
     return (
         <React.Fragment>
             <div className="container-md container m-3 border">
