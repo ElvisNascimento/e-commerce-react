@@ -31,19 +31,15 @@ export default function Header() {
         </React.Fragment>
     }
     return (
-
-        <div className="container headerBase">
+        <div className="border headerBase">
             <div className="actionsHeader">
-                <div className=" logo">
-                    <div>
-                        <img style={{ height: 33 }} src={LogoDigital} />
-                    </div>
+                <div className="logoHeaderHome">
+                    <img src={LogoDigital} />
                 </div>
-                <div className="buscar"><Buscar /></div>
-                <div className=" cadastro"><Link to={'/cadastro'} className="cadastro">Cadastre-se</Link></div>
-                <div className=" entrar"><Link to={'/login'} ><button className="btn botaoEntrar">Entrar</button></Link></div>
+                <div className=" buscar"><Buscar /></div>
+                <div className=" cadastroHeader"><Link to={'/cadastro'} className="cadastro">Cadastre-se</Link></div>
+                <div className=" entrarHeader"><Link to={'/login'} ><button className="btn botaoEntrar">Entrar</button></Link></div>
                 <div className=" carrinho">
-
                     <div>
                         <IconButton onClick={() => setExibir(!exibir)} aria-label="cart" data-mui-toggle="dropdown" >
                             <CarrinhoHover />
