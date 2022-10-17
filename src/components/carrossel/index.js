@@ -14,26 +14,28 @@ export default function Carrossel() {
   };
     return (
         <React.Fragment>
-          <Carousel style={{backgroundColor: "rgba(0,0,0,.3)"}} activeIndex={index} onSelect={handleSelect}>
+          <Carousel style={{backgroundColor: "#ffffff"}} activeIndex={index} onSelect={handleSelect}>
             <Carousel.Item>
-              <img className="d-block w-100" src={tenis} alt="First slide" />
+              <div div class="d-flex">Melhores Ofertas Personalizadas
+                <h1><strong>Queima de estoque Nike</strong></h1>
+                <p>Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.</p>
+                <button style={{backgroundColor:"#f5f5f5"}}>Ver Ofertas</button>
+              <img className="d-block w-50" src={tenis} alt="First slide" />
+              </div>
               <Carousel.Caption>
-                <h3 style={{color: "red"}}>First slide label</h3>
-                <p style={{color: "red"}}>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-              <img className="d-block w-100" src={tenis} alt="Second slide" />
+              <img className="d-block w-50" src={tenis} alt="Second slide" />
               <Carousel.Caption>
-                <h3 style={{color: "red"}}>Second slide label</h3>
-                <p style={{color: "red"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-              <img className="d-block w-100" src={tenis} alt="Third slide" />
+              <img className="d-block w-50" src={tenis} alt="Third slide" />
               <Carousel.Caption>
-                <h3 style={{color: "red"}}>Third slide label</h3>
-                <p style={{color: "red"}}>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+               
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
