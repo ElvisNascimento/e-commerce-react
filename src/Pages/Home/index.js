@@ -13,8 +13,8 @@ let Home = () => {
                 <Header/>
                 <Carrosel/>
                 <Collection/>
-                <ProdutosAlta/>
                 <Linkicons/>
+                <ProdutosAlta/>
                 {/* <BannerFooter/> */}
                 <Footer/>
         </React.Fragment>
