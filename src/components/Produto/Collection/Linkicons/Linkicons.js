@@ -10,7 +10,7 @@ import './index.css'
 export default function Linkicons(){
     return(
         <section >
-            <div className='card-deck d-flex justify-content-center' >
+            <div className='card-deck d-flex justify-content-center' style={{}} >
                 <p className="titulo">Coleções em destaque</p>
             </div>
             <div className="cont">

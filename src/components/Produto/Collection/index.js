@@ -1,11 +1,11 @@
-import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Desconto from './img/Desconto.png'
-import Supreme from './img/Supreme.png'
-import Tenis from './img/Tenis.png'
-import Headset from './img/Headset.png'
+import React from 'react';
+import Desconto from './img/Desconto.png';
+import Supreme from './img/Supreme.png';
+import Tenis from './img/Tenis.png';
+import Headset from './img/Headset.png';
 
-
+// IMPORTANTE
 export default function Collection() {
     return (
         <React.Fragment>
