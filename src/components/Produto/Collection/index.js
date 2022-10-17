@@ -14,12 +14,12 @@ export default function Collection() {
                     <p style={{width:'238px', fontSize:'21px',fontWeight:'700',letterSpacing:'0.75px',color:'color: #474747'}}>Coleções em destaque</p>
                 </div>
                 <section className='card-deck d-flex' >
-                    <div style={{width:'405px',height:'251px',border:'none',borderRadius:'8px',marginRight:'12px'}} className="card text-dark">
+                    <div style={{width:'405px',height:'251px',border:'none',borderRadius:'8px',marginRight:'12px',fontWeight:'700',fontSize:'16px'}} className="card text-dark">
                         <img className="card-img" src={Supreme} alt="Supreme" />
                         <div className="card-img-overlay">
                             <img src={Desconto} />
                             <h5 className="card-title"><b>Novo Drop <br /> Supreme</b></h5>
-                            <button className='btn btn-light'>Comprar</button>
+                            <button style={{color:'#C92071', backgroundColor:'#F5F5F5', borderRadius:'8px',fontWeight:'700',fontSize:'16px'}} className='btn'>Comprar</button>
                         </div>
                     </div>
                     <div style={{width:'405px',height:'251px',border:'none',borderRadius:'8px',marginRight:'12px'}} className="card text-dark">
@@ -27,7 +27,7 @@ export default function Collection() {
                         <div className="card-img-overlay">
                             <img src={Desconto} />
                             <h5 className="card-title"><b>Coleção <br /> Adidas</b></h5>
-                            <button className='btn btn-light'>Comprar</button>
+                            <button style={{color:'#C92071', backgroundColor:'#F5F5F5', borderRadius:'8px',fontWeight:'700',fontSize:'16px'}} className='btn btn-light'>Comprar</button>
                         </div>
                     </div>
                     <div style={{width:'405px',height:'251px',border:'none',borderRadius:'8px',marginRight:'12px'}} className="card text-dark">
@@ -35,7 +35,7 @@ export default function Collection() {
                         <div className="card-img-overlay">
                             <img src={Desconto} />
                             <h5 className="card-title"><b>Novo <br /> Beats Bass</b></h5>
-                            <button className='btn btn-light'>Comprar</button>
+                            <button style={{color:'#C92071', backgroundColor:'#F5F5F5', borderRadius:'8px',fontWeight:'700',fontSize:'16px'}} className='btn btn-light'>Comprar</button>
                         </div>
                     </div>
                 </section>
