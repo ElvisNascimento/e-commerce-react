@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.placeholderBF{
+    background-color: rgb(255, 255, 255);
+    width: 1440px;
+    height: 553px;
+}
+.circuloFundo{
+    width: 466px;
+    height: 466px;
+    margin-top: 87px;
+    margin-left: 129px;
+    margin-right: 845px;
+    margin-bottom: 0px;
+}
+.tenisFooter{
+    width: 573px;
+    height: 330px;
+    /* margin: 115px 815px 108px 52px; */
+    z-index: 1000px;
+}

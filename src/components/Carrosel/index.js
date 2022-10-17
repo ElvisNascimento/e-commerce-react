@@ -4,6 +4,7 @@ export default function Carrosel() {
         <div>
             <div className="carrocelBase">
                 <h1>CARROSEL</h1>
+                <h5>Responsabilidade: Natan</h5>
             </div>
         </div>
     )

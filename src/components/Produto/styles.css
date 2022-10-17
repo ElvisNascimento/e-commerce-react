@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
 .produtoBase {
     box-sizing: border-box;
-    width: 225px;
-    height: 350px;
+    width: 292px;
+    height: 479px;
     box-shadow: 6px 16px 30px rgba(105, 98, 98, 0.05);
     border-radius: 4px;
     margin: 0px 7px;
@@ -11,11 +11,11 @@
 .cards{
     background-color: #F9F8FE;
 }
-.sneakerImg{
+.sneakerImgProdutos{
     background-color: #FFF;
     border-radius: 4px;
-    width: 225px;
-    height: 225px;
+    width: 292px;
+    height: 321px;
 }
 .sneakerP{
     color: #8F8F8F;
