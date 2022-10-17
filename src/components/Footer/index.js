@@ -57,7 +57,7 @@ export default function Footer() {
                         <li className="nav-item"><Link to={'/calcas'} className="nav-link text-white">Calças</Link></li>
                         <li className="nav-item"><Link to={'/bones'} className="nav-link text-white">Bonés</Link></li>
                         <li className="nav-item"><Link to={'/headphones'} className="nav-link text-white">Headphones</Link></li>
-                        <li className="nav-item"><Link to={'/detalhes'} className="nav-link text-white">Tenis</Link></li>
+                        <li className="nav-item"><Link to={'/detalhesProduto'} className="nav-link text-white">Tenis</Link></li>
                     </ul>
                 </div>
 
