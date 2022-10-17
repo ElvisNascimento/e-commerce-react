@@ -31,8 +31,7 @@ export default function Header() {
         </React.Fragment>
     }
     return (
-
-        <div className="container headerBase">
+        <div className="border headerBase">
             <div className="actionsHeader">
                 <div className=" logo">
                     <div>
@@ -43,7 +42,6 @@ export default function Header() {
                 <div className=" cadastro"><Link to={'/cadastro'} className="cadastro">Cadastre-se</Link></div>
                 <div className=" entrar"><Link to={'/login'} ><button className="btn botaoEntrar">Entrar</button></Link></div>
                 <div className=" carrinho">
-
                     <div>
                         <IconButton onClick={() => setExibir(!exibir)} aria-label="cart" data-mui-toggle="dropdown" >
                             <CarrinhoHover />

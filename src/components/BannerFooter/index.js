@@ -1,10 +1,20 @@
 import React from 'react';
-import './index.css';
+import './styles.css';
+import circulo from '../../components/BannerFooter/circulo.png';
+import tenis from '../../components/BannerFooter/tenis.png';
 
 export default function BannerFooter() {
     return (
         <React.Fragment>
-            <section>
+            <div className='placeholderBF'>
+                <div className='circuloFundo'>
+                    <img src={circulo} alt="" />
+                </div>
+                {/* <div className='tenisFooter'>
+                    <img src={tenis} alt="" />
+                </div> */}
+            </div>
+            {/* <section>
                 <div className="r2">
                     Oferta especial
                 </div>
@@ -17,13 +27,8 @@ export default function BannerFooter() {
                 <div className="r273 d-flex between">
                     <button>Ver Oferta</button>
                 </div>
-                <div className="imagem">
-                    <div className="imgagem2">
-                        <img src="tenis.png" alt=""></img>
-                    </div>
-                </div>
-
-            </section>
+                
+            </section> */}
         </React.Fragment>
     )
 }
