@@ -33,14 +33,14 @@ export default function Header() {
     return (
         <div className="headerBase">
             <div className="actionsHeader">
-                <div className=" logo">
+                <div className=" logoHeaderHome">
                     <div>
                         <Link to={'/'}><img style={{ height: 33 }} src={LogoDigital} /></Link>
                     </div>
                 </div>
                 <div className="buscar"><Buscar /></div>
-                <div className=" cadastro"><Link to={'/cadastro'} className="cadastro">Cadastre-se</Link></div>
-                <div className=" entrar"><Link to={'/login'} ><button className="btn botaoEntrar">Entrar</button></Link></div>
+                <div className=" cadastroHeader"><Link to={'/cadastro'} className="cadastro">Cadastre-se</Link></div>
+                <div className=" entrarHeader"><Link to={'/login'} ><button className="botaoEntrar">Entrar</button></Link></div>
                 <div className=" carrinho">
                     <div>
                         <IconButton onClick={() => setExibir(!exibir)} aria-label="cart" data-mui-toggle="dropdown" >
