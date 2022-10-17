@@ -5,7 +5,7 @@ import Supreme from './img/Supreme.png'
 import Tenis from './img/Tenis.png'
 import Headset from './img/Headset.png'
 
-
+// IMPORTANTE
 export default function Collection() {
     return (
         <React.Fragment>
