@@ -1,0 +1,29 @@
+.carousel-indicators [data-bs-target] {
+    display: none; 
+}
+
+.fundoazul{
+    height: 37rem;
+    width: 45rem;
+}
+
+
+.fundopastel{
+    height: 37rem;
+    width: 45rem;
+    
+}
+.fundosalmao{
+    height: 37rem;
+    width: 45rem;
+}
+
+.fundomarrom{
+    height: 37rem;
+    width: 45rem;
+}
+
+.fundocinza{
+    height: 37rem;
+    width: 45rem;
+}
