@@ -1,12 +1,14 @@
-.navHome img {
-    height: 20px;
+
+
+.navLog img {
+    height: 25px;
 }
 
 form#formLog {
     background-color: white;
     margin-top: 90px;
     margin-bottom: 100px;
-    width: 400px;
+    width: 30rem;
 }
 
 form#formLog a {
@@ -33,4 +35,14 @@ form#formLog button {
 }
 .gmail{
     margin-left: 20px;
+}
+
+img.tenis1 {
+    margin-bottom: 150px;
+    height: 30rem;
+}
+
+img.tenis2 {
+    margin-top: 150px;
+    height: 30rem;
 }

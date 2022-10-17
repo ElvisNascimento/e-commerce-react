@@ -12,9 +12,9 @@ let Home = () => {
         <React.Fragment>
                 <Header/>
                 <Carrosel/>
-                <ProdutosAlta/>
                 <Collection/>
                 <Linkicons/>
+                <ProdutosAlta/>
                 {/* <BannerFooter/> */}
                 <Footer/>
         </React.Fragment>

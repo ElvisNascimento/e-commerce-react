@@ -8,23 +8,23 @@ import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
 export default function Login() {
     return (
         <React.Fragment>
-            <div className="container-md container m-3 border">
-                <div className="navHome">
+            <div className="m-4">
+                <div className="navLog">
                     <img src={Logo} />
                 </div>
             </div>
-            <div id="pagLog" className="d-flex justify-content-center border">
-                <div className="d-flex justify-content-start border">
-                    <form id="formLog" className="form-control border">
+            <div id="pagLog" className="d-flex justify-content-center">
+                <div className="d-flex justify-content-start">
+                    <form id="formLog" className="form-control">
                         <div>
                         <h2><strong>Acesse sua conta</strong></h2>
                         <p>Novo Cliente? Então registre-se <a href="">aqui</a>.</p>
                         </div>
-                        <div className="mb-3 border">
+                        <div className="mb-3">
                             <label className="form-label"><strong>Login *</strong></label>
                             <input type="email" className="form-control" placeholder="Insira seu login ou email"/>
                         </div>
-                        <div className="mb-3 border">
+                        <div className="mb-3">
                             <label className="form-label"><strong>Senha *</strong></label>
                             <input type="password" className="form-control" placeholder="Insira sua senha"/>
                         </div>
@@ -48,7 +48,7 @@ export default function Login() {
                         </div>
                     </form>
                 </div>
-                <div className="d-flex justify-content-end border">
+                <div className="d-flex justify-content-center">
                     <img className="tenis1" src={Tenis1} />
                     <img className="tenis2" src={Tenis2} />
                 </div>

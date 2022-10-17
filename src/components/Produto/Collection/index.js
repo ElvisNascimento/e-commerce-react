@@ -8,11 +8,11 @@ import Headset from './img/Headset.png';
 
 export default function Collection() {
     return (
-        <div className="container-md container mt-2 border">
+        <div className="container-md container mt-2">
             <div className='mt-2'>
-                <p>Coleções em destaque</p>
+                <p className="titulo">Coleções em destaque</p>
             </div>
-            <section className='card-deck d-flex justify-content-center' >
+            <section id='collection' className='card-deck d-flex justify-content-center' >
                 <div className="card text-dark col-3 me-5">
                     <img className="card-img" src={Supreme} alt="Supreme" />
                     <div className="card-img-overlay">
@@ -38,16 +38,6 @@ export default function Collection() {
                     </div>
                 </div>
             </section>
-            <div>
-                <section>
-                    <div className='mt-4'>
-                        <p>Coleções em destaque</p>
-                    </div>
-                    <div>
-                        <img src=''/>
-                    </div>
-                </section>
-            </div>
         </div>
     )
 }
