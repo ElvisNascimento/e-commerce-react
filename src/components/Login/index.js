@@ -14,7 +14,7 @@ export default function Login() {
                     <img src={Logo} />
                 </div>
             </div>
-            <div id="pagLog" className="d-flex justify-content-center">
+            <div id="pagLog" style={{marginLeft: '-30px'}} className="d-flex justify-content-center">
                 <div className="d-flex justify-content-start">
                     <form id="formLog" className="form-control">
                         <div>
@@ -35,7 +35,7 @@ export default function Login() {
                         <div className="d-grid gap-2 col-auto mx-auto mt-4">
                             <button type="submit" className="btn">Acessar Conta</button>
                         </div>
-                        <div className="mt-4">
+                        <div className="mt-4 text-center">
                             <p>Ou faça login com
                             <svg className="gmail" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1.63636 21.0022H5.45456V11.7295L2.95434 7.36365L0 7.63857V19.3659C0 20.2699 0.732281 21.0022 1.63636 21.0022Z" fill="#0085F7"/>
@@ -49,11 +49,11 @@ export default function Login() {
                         </div>
                     </form>
                 </div>
-                <div className="d-flex justify-content-center">
-                    <img className="tenis1" src={Tenis1} />
-                    <img className="tenis2" src={Tenis2} />
+                <div className="d-flex justify-content-center" style={{paddingLeft: '50px'}}>
+                    <img className="chuchu123" src={Tenis1} />
+                    <img className="chuchu456" src={Tenis2} />
                 </div>
             </div>
         </React.Fragment>
     )
-}
+} 

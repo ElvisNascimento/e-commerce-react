@@ -2,7 +2,10 @@
 
 .navLog img {
     height: 25px;
+    padding-left: 200px;
 }
+
+
 
 form#formLog {
     background-color: white;
@@ -37,12 +40,12 @@ form#formLog button {
     margin-left: 20px;
 }
 
-img.tenis1 {
-    margin-bottom: 150px;
+img.chuchu123 {
+    margin-bottom: 100px;
     height: 30rem;
 }
 
-img.tenis2 {
-    margin-top: 150px;
+img.chuchu456 {
+    margin-top: 100px;
     height: 30rem;
 }
