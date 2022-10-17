@@ -1,12 +1,12 @@
-import "./index.css";
+import "../../Login/index.css";
 import React from "react";
-import Logo from "./img/LogoDigital.png";
-import Tenis1 from "./img/tenis1.png";
-import Tenis2 from "./img/tenis2.png";
+import Logo from "../img/LogoDigital.png";
+import Tenis1 from "../img/tenis1.png";
+import Tenis2 from "../img/tenis2.png";
 import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
 import { Link } from "react-router-dom";    
 
-export default function Login() {
+export default function Criar() {
     return (
         <React.Fragment>
             <div className="m-4">
@@ -18,22 +18,15 @@ export default function Login() {
                 <div className="d-flex justify-content-start">
                     <form id="formLog" className="form-control">
                         <div>
-                        <h2><strong>Acesse sua conta</strong></h2>
-                        <p>Novo Cliente? Então registre-se <Link to={'/criar'}>aqui</Link>.</p>
+                        <h2><strong>Crie sua conta</strong></h2>
+                        <p>Já possui uma conta? Entre <Link to={'/login'}>aqui</Link>.</p>
                         </div>
                         <div className="mb-3">
-                            <label className="form-label"><strong>Login *</strong></label>
-                            <input type="email" className="form-control" placeholder="Insira seu login ou email"/>
-                        </div>
-                        <div className="mb-3">
-                            <label className="form-label"><strong>Senha *</strong></label>
-                            <input type="password" className="form-control" placeholder="Insira sua senha"/>
-                        </div>
-                        <div>
-                            <Link to={'/'}>Esqueci minha senha</Link>
+                            <label className="form-label"><strong>Email *</strong></label>
+                            <input type="email" className="form-control" placeholder="Insira seu email"/>
                         </div>
                         <div className="d-grid gap-2 col-auto mx-auto mt-4">
-                            <button type="submit" className="btn">Acessar Conta</button>
+                            <button type="submit" className="btn">Criar Conta</button>
                         </div>
                         <div className="mt-4 text-center">
                             <p>Ou faça login com
