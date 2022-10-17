@@ -6,9 +6,7 @@ import './styles.css'
 export default function Produto(props) {
     return (
         <div className='produtoBase'>
-            <div className='sneakerImg'>
-                <img className="sneakerImg" src={Sneakers} alt=""></img>
-            </div>
+            <img className='sneakerImgProdutos' src={Sneakers} alt=""/>
             <div className='descricaoItem'>
                 <small color="text.secondary">Tênis</small>
                 <p className='pCustom'>K-Swiss V8 - Masculino</p>
