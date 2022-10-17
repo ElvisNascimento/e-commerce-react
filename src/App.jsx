@@ -21,7 +21,6 @@ import TrabalheConosco from "./Pages/Informacao/TrabalheConosco/index.js";
 import Wishlist from "./Pages/Informacao/Wishlist/index.js";
 import PaginaConstrucao from "./Pages/PaginaConstrucao/index.jsx";
 import NotFound from "./Pages/NotFound/index.jsx";
-import Carroca from "./components/CarrocaDetalhesProduto/Carroca.js";
 
 
 export const AppContext = React.createContext();
@@ -51,7 +50,6 @@ export default function App() {
           <Route path="/trabalhe" element={<TrabalheConosco/>}/>
           <Route path="/wishlist" element={<Wishlist/>}/>
           <Route path="/construcao" element={<PaginaConstrucao/>}/>
-          <Route path="/detalhes" element={<Carroca/>}/>
           
           <Route path='/*' element={<NotFound/>}/>
         </Routes>

@@ -5,15 +5,13 @@ import Sneakers from './skeakers.png';
 export default function ProdutosAlta() {
     return (
         <>
-            <div>
-                <div className=" con ProdutosAlta ">
-                    <div className=" d-flex">
-                        <div className="col-6">
+            <div style={{marginTop:'123px',width:'1440px'}}>
+                <div className="ProdutosAlta ">
+                    <div style={{marginBottom:'20px'}} className=" d-flex">
+                        <div style={{paddingLeft:'100px'}} className="">
                             <h5>Produtos em alta</h5>
                         </div>
-                        <div className="col-4">
-                        </div>
-                        <div className="col-2 ">
+                        <div style={{marginLeft:'908px'}}>
                             <a href="#" className="VerTodos">Ver todos <ArrowForwardIcon></ArrowForwardIcon></a>
                         </div>
                     </div>

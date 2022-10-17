@@ -4,16 +4,15 @@ import Logo from '../../img/LogoDigital.png';
 import './style.css';
 import { Checkbox } from "@mui/material";
 import { pink } from '@mui/material/colors';
+import { Link } from "react-router-dom";
 
-export default function Cadastro(){
+export default function Cadastro() {
 
-    return(
+    return (
         <React.Fragment>
-            <div className="container-md container m-3 border">
+            <div style={{ backgroundColor: '#F9F8FE' }}>
                 <div className="logo">
-                    <img src={Logo} />
-                </div>
-            <div className="container">
+                    <Link to={'/'}><img src={Logo} /></Link>
                 </div>
                 <div className="criar">
                     <span className="conta" >Criar Conta</span>
@@ -26,11 +25,11 @@ export default function Cadastro(){
                         </div>
                         <div className="form-group">
                             <label htmlFor="nome" className="labelNome">Nome Completo*</label>
-                            <input  required  pattern="(?=.*[A-Z])(?=.*[a-z]){2,}" type="text" className="form-control inputNome" id="nome" placeholder="Insira seu nome" />
+                            <input required pattern="(?=.*[A-Z])(?=.*[a-z]){2,}" type="text" className="form-control inputNome" id="nome" placeholder="Insira seu nome" />
                         </div>
                         <div className="form-group">
                             <label htmlFor="cpf" className="labelCpf">CPF*</label>
-                            <input required  pattern="[0-9]{11}" type="text" className="form-control inputCpf" id="cpf" placeholder="Insira seu CPF" />
+                            <input required pattern="[0-9]{11}" type="text" className="form-control inputCpf" id="cpf" placeholder="Insira seu CPF" />
                         </div>
                         <div className="form-group">
                             <label htmlFor="email" className="labelEmail">E-mail*</label>
@@ -68,14 +67,14 @@ export default function Cadastro(){
                         </div>
                     </div>
                     <div className="form-check check">
-                        <input type="checkbox" className="cBox" id="exampleCheck1"/>
+                        <input type="checkbox" className="cBox" id="exampleCheck1" />
                         <label className="cBoxLabel" htmlFor="exampleCheck1">Quero receber por email ofertas e novidades das lojas da Digital Store. A frequência de envios pode variar de acordo com a interação do cliente.</label>
                     </div>
                     <div className="btnCad">
                         <button className="btnConf">Criar Conta</button>
                     </div>
                 </form>
-                <Footer/>
+                <Footer />
             </div>
         </React.Fragment>
     )

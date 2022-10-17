@@ -36,7 +36,7 @@ export default function Header() {
             <div className="actionsHeader">
                 <div className=" logo">
                     <div>
-                        <img style={{ height: 33 }} src={LogoDigital} />
+                        <Link to={'/'}><img style={{ height: 33 }} src={LogoDigital} /></Link>
                     </div>
                 </div>
                 <div className="buscar"><Buscar /></div>
