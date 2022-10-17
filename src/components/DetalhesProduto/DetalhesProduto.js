@@ -30,9 +30,7 @@ export default function DetalhesProduto() {
         <section className="DetalhesProduto">
             <div className="Cabecalho container d-flex">
                     <strong>Home</strong>  <p>/ Produtos / Tênis / Nike / Tênis Nike Revolution 6 Next Nature Masculino</p>
-
             </div>
-
             <div className="d-flex container">
                 <div className="col-8">
                     <Carroca/>
@@ -40,26 +38,20 @@ export default function DetalhesProduto() {
                         <div className="d-flex m-3 align-items-center justify-content-center tenis1 ">
                             <img className="" src={TenisBranco}/>
                         </div>
-
                         <div className="d-flex m-3 align-items-center justify-content-center tenis2 ">
                             <img className="" src={TenisBranco}/>
                         </div>
-
                         <div className="d-flex m-3 align-items-center justify-content-center tenis3 ">
                             <img className="" src={TenisBranco}/>
                         </div>
-
                         <div className="d-flex m-3 align-items-center justify-content-center tenis4 ">
                             <img className="" src={TenisBranco}/>
                         </div>
                         <div className="d-flex m-3 align-items-center justify-content-center tenis5 ">
                             <img className="" src={TenisBranco}/>
                         </div>
-                        
                     </div>
                 </div>
-
-
                 <div className="col-4 ">
                     <div className="tnrHeader">
                         <strong>Tênis Nike Revolution 6 Next Nature Masculino</strong>
@@ -74,30 +66,21 @@ export default function DetalhesProduto() {
                             </div>
                             <div className="rates">
                                 <button className="rateButton">4.7 <Star style={{fontSize:'14px', color:'white'}}></Star></button>
-                               
                             </div>
                             <div className="piu">
                                <p>(90 avaliações)</p>
                             </div>
-
-
                         </div>
-
                         <div className="precoAA d-flex">
                             <p style={{color:'#474747',paddingRight:'5px',fontSize:'15px'}}>R$</p>
                             <strong>219</strong><strong style={{fontSize:'15px',paddingRight:'10px'}}>,00</strong>
                             <h5 style={{textDecoration: "line-through",color:'#CCCCCC'}}>219,00</h5>
-
                         </div>
-
                         <div className="descriptionProduct">
                             <h3>Descrição do Produto</h3>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem voluptatum cupiditate mollitia, architecto optio nobis quia eos dolorem soluta aliquam!</p>
-
                         </div>
-
                     </div>
-
                     <div className="tamanhoCor">
                     <div className="tamanho ">
                         <p>Tamanho</p>
@@ -107,10 +90,7 @@ export default function DetalhesProduto() {
                             <button onClick={clique}>41</button>
                             <button onClick={clique}>42</button>
                             <button onClick={clique}>43</button>
-
                         </div>
-
-
                         <p>Tamanho</p>
                         <div className="d-flex cor">    
                             <button className="cor1" onClick={cliqueCor} ></button>
@@ -118,21 +98,11 @@ export default function DetalhesProduto() {
                             <button className="cor3"onClick={cliqueCor}></button>
                             <button className="cor4"onClick={cliqueCor}></button>
                         </div>
-                        
-
                     </div>
-
-
                 </div>
                 <button className="btnComprar">Comprar</button>
-
-
                 </div>
-
-                
-
             </div>
-
             <div className="container ProdutosAlta ">
                     <div className=" d-flex">
                         <div className="col-6">
@@ -145,11 +115,7 @@ export default function DetalhesProduto() {
                         </div>
                     </div>
             </div>
-
-
-
             <div className="contanier">
-                
                 <div className="cards container">
                     <div className="row">
                         <div className="col-3">
@@ -198,19 +164,8 @@ export default function DetalhesProduto() {
                     
                 </div>
             </div>
-
-            
-
-            
-
-
         </section>
-           
-
             <Footer></Footer>
-
-
-
         </>
     )
 }

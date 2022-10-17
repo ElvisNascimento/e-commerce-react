@@ -19,7 +19,7 @@ export default function Collection() {
                         <div className="card-img-overlay">
                             <img src={Desconto} />
                             <h5 className="card-title"><b>Novo Drop <br /> Supreme</b></h5>
-                            <button className='btn btn-light'>Comprar</button>
+                            <button style={{width:'153px',height:'48px', color:'#c92071',backgroundColor:'#f5f5f5',borderRadius:'8px',fontSize:'16px',fontWeight:'700',letterSpacing:'0.75px'}} className='btn'>Comprar</button>
                         </div>
                     </div>
                     <div style={{width:'405px',height:'251px',border:'none',borderRadius:'8px',marginRight:'12px'}} className="card text-dark">
@@ -27,7 +27,7 @@ export default function Collection() {
                         <div className="card-img-overlay">
                             <img src={Desconto} />
                             <h5 className="card-title"><b>Coleção <br /> Adidas</b></h5>
-                            <button className='btn btn-light'>Comprar</button>
+                            <button style={{width:'153px',height:'48px', color:'#c92071',backgroundColor:'#f5f5f5',borderRadius:'8px',fontSize:'16px',fontWeight:'700',letterSpacing:'0.75px'}} className='btn btn-light'>Comprar</button>
                         </div>
                     </div>
                     <div style={{width:'405px',height:'251px',border:'none',borderRadius:'8px',marginRight:'12px'}} className="card text-dark">
@@ -35,7 +35,7 @@ export default function Collection() {
                         <div className="card-img-overlay">
                             <img src={Desconto} />
                             <h5 className="card-title"><b>Novo <br /> Beats Bass</b></h5>
-                            <button className='btn btn-light'>Comprar</button>
+                            <button style={{width:'153px',height:'48px', color:'#c92071',backgroundColor:'#f5f5f5',borderRadius:'8px',fontSize:'16px',fontWeight:'700',letterSpacing:'0.75px'}} className='btn btn-light'>Comprar</button>
                         </div>
                     </div>
                 </section>
