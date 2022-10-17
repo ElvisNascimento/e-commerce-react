@@ -9,15 +9,15 @@ import Carrosel from "../../components/Carrosel";
 
 let Home = () => {
     return(
-        <React.Fragment>
+        <div style={{width: 1440,height: 3744,}}>
                 <Header/>
                 <Carrosel/>
                 <Collection/>
-                <ProdutosAlta/>
                 <Linkicons/>
-                {/* <BannerFooter/> */}
+                <ProdutosAlta/>
+                <BannerFooter/>
                 <Footer/>
-        </React.Fragment>
+        </div>
     );
 }
 export default Home;
