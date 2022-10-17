@@ -20,16 +20,16 @@ const filtrar = [
 
 export default function TodosProdutos() {
   return (
-    <React.Fragment>
+    <div style={{ width: 1440, height: 3744, }}>
       <Header />
-      <div className="container">
-        <div className="container body">
+      <div className="">
+        <div className=" body">
           <div className="div1">
             <div>
               <strong>Resultado para "Tênis" </strong><text> - 389 Resultados</text>
             </div>
             <div>
-              <Autocomplete style={{marginRight: 6}}
+              <Autocomplete style={{ marginRight: 6 }}
                 disablePortal
                 id="combo-box"
                 options={filtrar}
@@ -162,6 +162,6 @@ export default function TodosProdutos() {
         </div>
       </div>
       <Footer />
-    </React.Fragment>
+    </div>
   )
 }

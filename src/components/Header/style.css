@@ -40,6 +40,10 @@
     padding-top: 0.5rem;
 }
 .botaoEntrar{
+    background-color: #C92071;
+    color: white;
+    border-radius: 8px;
+    border: none;
     width: 110px;
     height: 40px;
 }

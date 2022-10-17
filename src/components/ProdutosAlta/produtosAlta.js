@@ -18,7 +18,7 @@ export default function ProdutosAlta() {
                         </div>
                     </div>
                 </div>
-                <div className="cards border">
+                <div className="cards">
                     <div className="row">
                         <div className=" col-3">
                             <div className="cartao">

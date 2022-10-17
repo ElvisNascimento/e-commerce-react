@@ -38,7 +38,7 @@ export default function Header() {
                 </div>
                 <div className=" buscar"><Buscar /></div>
                 <div className=" cadastroHeader"><Link to={'/cadastro'} className="cadastro">Cadastre-se</Link></div>
-                <div className=" entrarHeader"><Link to={'/login'} ><button className="btn botaoEntrar">Entrar</button></Link></div>
+                <div className=" entrarHeader"><Link to={'/login'} ><button className="botaoEntrar">Entrar</button></Link></div>
                 <div className=" carrinho">
                     <div>
                         <IconButton onClick={() => setExibir(!exibir)} aria-label="cart" data-mui-toggle="dropdown" >
