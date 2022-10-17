@@ -4,7 +4,7 @@ import './index.css';
 export default function BannerFooter() {
     return (
         <React.Fragment>
-            <section>
+            {/* <section>
                 <div className="r2">
                     Oferta especial
                 </div>
@@ -23,7 +23,7 @@ export default function BannerFooter() {
                     </div>
                 </div>
 
-            </section>
+            </section> */}
         </React.Fragment>
     )
 }
