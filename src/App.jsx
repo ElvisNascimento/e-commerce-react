@@ -10,6 +10,7 @@ import Camisetas from "./components/Produtos/Camisetas";
 import Headphones from "./components/Produtos/Headphones";
 import Tenis from "./components/Produtos/Tenis/";
 import Login from "./Pages/Login/index.js";
+import Criar from "./Pages/Criar/index.js";
 import Cadastro from "./Pages/Cadastro/index.jsx";
 import TodosProdutos from "./Pages/TodosProdutos/index.jsx";
 import DetalhesProduto from "./components/DetalhesProduto/DetalhesProduto.js";
@@ -35,6 +36,7 @@ export default function App() {
           <Route path={'/'} element={<Home/>}/>
           <Route path={'/home'} element={<Home/>}/>
           <Route path={'/login'} element={<Login/>}/>
+          <Route path={'/Criar'} element={<Criar/>}/>
           <Route path={'/produtos'} element={<TodosProdutos/>}/>
           <Route path="/camisetas" element={<Camisetas/>}/>
           <Route path="/calcas" element={<Calcas/>}/>
