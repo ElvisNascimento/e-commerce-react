@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+.produtoBase {
+    box-sizing: border-box;
+    width: 292px;
+    height: 479px;
+    box-shadow: 6px 16px 30px rgba(105, 98, 98, 0.05);
+    border-radius: 4px;
+    margin: 0px 3.5px;
+    padding: 0px 0px;
+}
+.cards{
+    background-color: #F9F8FE;
+}
+.sneakerImgProdutos{
+    background-color: #FFF;
+    border-radius: 4px;
+    width: 292px;
+    height: 321px;
+}
+.sneakerP{
+    color: #8F8F8F;
+    font-size: 12px;
+    padding-top: 10px;
+}
+.inicialP{
+    text-decoration: line-through;
+}
+.precoInicial{
+    padding-right: 10px;
+    color:  #8F8F8F;
+    font-size: 24px;
+}
+.precoAtual{
+    padding-right: 5px;
+    color: #1F1F1F;
+    font-weight: bold;
+    font-size: 24px;
+}
+.discount{
+    background-color:  #E7FF86;
+    font-weight: bold;
+    border-radius: 50%;
+    color: #474747;
+    font-size: 12px;
+    border: none;
+    width: 80px;
+    height: 30px;
+}
+
+.dis{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    z-index: 1000;   
+}
+.cartao{
+    position: relative;  
+}
+.discount2{
+    background-color:  #E7FF86;
+    font-weight: bold;
+    border-radius: 50%;
+    color: #474747;
+    font-size: 12px;
+    border: none;
+    width: 80px;
+    height: 30px;
+}
+.preco{
+    padding-bottom: 2rem;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.pCustom{
+    color: #474747;
+    margin: 0px;
+    font-size: 20px;
+}
+.descricaoItem{
+    padding-top: 10px;
+
+}

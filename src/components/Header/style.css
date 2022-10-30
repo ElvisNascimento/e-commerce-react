@@ -1,3 +1,67 @@
-.cadastro{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.headerBase{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    height: 192px;
+    width: 1440px;
+}
+.actionsHeader{
+    display: flex;
+    align-items: flex-end;
+    justify-content: start;
+    height: 96px;
+}
+.logoHeaderHome{
+    display: flex;
+    justify-content: start;
+    margin-left: 104px;
+    margin-right: 44px;
+    width: 260px;
+    height: 44px;
+}
+.cadastroHeader{
+    text-align: center;
     color:#333;
+    width: 104px;
+    height: 60px;
+    padding-top: 1rem;
+    margin: 0px 48px 0px 48px ;
+}
+.entrarHeader{
+    width: 120px;
+    height: 60px;
+    text-align: center;
+    padding-top: 0.5rem;
+}
+.botaoEntrar{
+    background-color: #C92071;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    width: 110px;
+    height: 40px;
+}
+.carrinho{
+    color: #C92071;
+    height: 60px;
+    text-align: center;
+    padding-top: 0.5rem;
+    margin-left: 72px;
+    margin-right: 100px;
+}
+.navHeader{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 96px;
+    padding-bottom: 20px;
+    margin-left: 100px;
+    font-size: 16px;
+    color: #474747;
 }

@@ -1,0 +1,38 @@
+.carousel-indicators [data-bs-target] {
+    display: none; 
+}
+
+.fundoazul{
+    height: 37rem;
+    width: 51rem;
+}
+
+
+.fundopastel{
+    height: 37rem;
+    width: 51rem;
+    
+}
+.fundosalmao{
+    height: 37rem;
+    width: 51rem;
+}
+
+.fundomarrom{
+    height: 37rem;
+    width: 51rem;
+}
+
+.fundocinza{
+    height: 37rem;
+    width: 51rem;
+}
+.slidTenis{
+    padding-left: 7rem;
+    padding-top: 8rem;
+}
+
+.slidTenis{
+    padding-left: 7rem;
+    padding-top: 8rem;
+}

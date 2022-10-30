@@ -1,0 +1,38 @@
+.cont{
+    margin-bottom: 123px;
+}
+.titulo {
+    margin-top: 100px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    color: #474747;
+
+}
+.botao {
+    margin-top: 20px;
+    width: 104px;
+    height: 104px;
+    border-radius: 125px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.05);
+}
+.texto {
+    margin-top: 12px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.75px;
+    color: #474747;
+}
+.botao1 {
+    width: 104px;
+    height: 104px;
+    border-radius: 125px;
+}

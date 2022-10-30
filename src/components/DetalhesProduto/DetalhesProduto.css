@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.DetalhesProduto{
+    background-color:  #F9F8FE;
+    font-family: 'Inter', sans-serif;
+}
+
+.Cabecalho{
+    padding-left: 76px;
+    background-color:  #F9F8FE;
+}
+
+.Cabecalho p{
+    color: #474747;
+    font-size: 14px;
+}
+
+.Cabecalho strong{
+    font-size: 14px;
+}
+
+.tnrHeader{
+    font-size: 32px;
+    color: #1F1F1F;
+}
+
+.tnrHeader p{
+font-size: 12px;
+color:#666666;
+}
+
+.rateButton{
+    border-radius: 15%;
+    font-size: 14px;
+    background-color: #F6AA1C;
+    font-weight: bold;
+    color: white;
+    border: none;
+    width: 3.5rem;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.piu p{
+    font-size: 14px;
+    color: #8F8F8F;
+    padding-top: 23px;
+}
+
+.precoAA{
+    align-items: baseline;
+    
+    
+}
+.descriptionProduct h3{
+    font-size: 14px;
+    color: #8F8F8F;
+    font-weight: bold;
+}
+.descriptionProduct p{
+    font-size: 14px;
+    color:#474747;
+    
+    
+}
+.tamanho button{
+    height: 40px;
+    width: 40px;
+    border-radius: 20%;
+    margin: 5px;
+    background-color: white;
+    border: 1px solid #CCCCCC;
+    font-size: 15px;
+    
+}
+
+.tamanho p{
+    font-size: 14px;
+    color: #8F8F8F;
+    margin: 5px;
+
+}
+
+.cor .cor1{
+    background-color: #6FEEFF;
+    border-radius: 50%;
+}
+
+.cor .cor3{
+    background-color: #5E5E5E;
+    border-radius: 50%;
+}
+.cor .cor4{
+    background-color: #6D70B7;
+    border-radius: 50%;
+}
+
+.cor .cor2{
+    background-color: #FF6969;
+    border-radius: 50%;
+}
+
+.btnComprar{
+    height: 50px;
+    width: 250px;
+    margin-top: 2rem;
+    background-color: #F6AA1C;
+    color: white;
+    font-weight: bold;
+    border:none;
+    border-radius: 8px;
+}
+
+.ProdutosAlta{
+    font-family: 'Inter', sans-serif;
+    background-color: #F9F8FE;
+    padding: 1rem;
+    margin-top: 9rem;
+    
+}
+
+h5{
+    font-size: 18px;
+    line-height: 34px;
+    color: #474747;
+    font-weight: bold;
+}
+
+.VerTodos{
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: #C92071;
+    padding: 3rem;
+    
+    
+}
+
+.cards{
+    background-color: #F9F8FE;
+}
+
+
+.sneakerImg{
+    width: 230px;
+    height: 230px
+}
+
+.sneakerP{
+    color: #8F8F8F;
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.inicialP{
+    text-decoration: line-through;
+}
+
+.precoInicial{
+    padding-right: 10px;
+    color:  #8F8F8F;
+    font-size: 24px;
+}
+
+.precoAtual{
+    padding-right: 5px;
+    color: #1F1F1F;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.discount{
+  
+    background-color:  #E7FF86;
+    font-weight: bold;
+    border-radius: 50%;
+    color: #474747;
+    font-size: 12px;
+    border: none;
+    width: 80px;
+    height: 30px;
+}
+
+.dis{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    z-index: 1000;
+    
+}
+.cartao{
+    position: relative;
+    
+}
+
+.discount2{
+    background-color:  #E7FF86;
+    font-weight: bold;
+    border-radius: 50%;
+    color: #474747;
+    font-size: 12px;
+    border: none;
+    width: 80px;
+    height: 30px;
+}
+
+
+.preco{
+    padding-bottom: 2rem;
+}
+
+.tenis1{
+    background-color: #E2E3FF;
+    height: 5rem;
+    width: 7rem;
+    border-radius: 5px;
+
+}
+.tenis2{
+    background-color: #FFE8BC;
+    height: 5rem;
+    width: 7rem;
+    border-radius: 5px;
+
+}
+.tenis3{
+    background-color: #FFC0BC;
+    height: 5rem;
+    width: 7rem;
+    border-radius: 5px;
+
+}
+.tenis4{
+    background-color: #DEC699;
+    height: 5rem;
+    width: 7rem;
+    border-radius: 5px;
+
+}
+.tenis5{
+    background-color: #E8DFCF;
+    height: 5rem;
+    width: 7rem;
+    border-radius: 5px;
+
+}
+
+.carr{
+    height: 30rem;
+}
