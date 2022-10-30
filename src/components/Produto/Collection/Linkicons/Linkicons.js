@@ -9,8 +9,8 @@ import FrameS from '../img/FrameS.png'
 import './index.css'
 export default function Linkicons(){
     return(
-        <section >
-            <div className='card-deck d-flex justify-content-center' style={{}} >
+        <section className="" style={{height: 400}}>
+            <div className='card-deck d-flex justify-content-center' >
                 <p className="titulo">Coleções em destaque</p>
             </div>
             <div className="cont">

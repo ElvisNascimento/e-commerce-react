@@ -8,10 +8,9 @@ import Carrossel from "../../components/carrossel"
 import BannerFooter from "../../components/BannerFooter";
 let Home = () => {
     return(
-        <div style={{ width: 1440,height: 3744,}}>
+        <div style={{backgroundColor: '#F9F8FE',display:'flex',justifyContent:"center",flexDirection:"column"}}>
                 <Header/>
                 <Carrossel/>
-                {/* <Produtos /> */}
                 <Collection/>
                 <Linkicons/>
                 <ProdutosAlta/>

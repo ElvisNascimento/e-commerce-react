@@ -31,7 +31,7 @@ export default function Header() {
         </React.Fragment>
     }
     return (
-        <div className="headerBase">
+        <div className="headerBase container bg-white">
             <div className="actionsHeader">
                 <div className=" logoHeaderHome">
                     <div>

@@ -6,8 +6,8 @@ import { Link } from 'react-router-dom';
 
 export default function BannerFooter() {
     return (
-        <React.Fragment>
-            <div style={{ width: '1440px', height: '553px' }}>
+        <React.Fragment >
+            <div className= ' container d-flex' style={{ width: '1440px', height: '553px' }}>
                 <div className='placeholderBF'>
                     <div className='circuloFundo'>
                         <img src={circulo} alt="" />

@@ -7,7 +7,7 @@ import "./style.css"
 
 export default function Carrossel() {
   return (
-    <Carousel className="container carousel-principal">
+    <Carousel className="container carousel-principal bg-white">
       <Carousel.Item className="divisao">
         <div className="linha">
           <img className="circle" src={bola} alt="circle" />

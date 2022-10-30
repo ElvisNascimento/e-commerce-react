@@ -9,11 +9,11 @@ import Headset from './img/Headset.png';
 export default function Collection() {
     return (
         <React.Fragment>
-            <div style={{height:'409px',width:'1440px',marginTop:'38px',marginLeft:'100px'}}>
+            <div className='container' style={{height:'409px',width:'1440px',marginTop:'38px'}}>
                 <div style={{marginBottom:'20px'}}>
-                    <p style={{width:'238px', fontSize:'21px',fontWeight:'700',letterSpacing:'0.75px',color:'color: #474747'}}>Coleções em destaque</p>
+                    <p style={{marginLeft:'2%',marginRight:'2%',width:'238px', fontSize:'21px',fontWeight:'700',letterSpacing:'0.75px',color:'color: #474747'}}>Coleções em destaque</p>
                 </div>
-                <section className='card-deck d-flex' >
+                <section className='card-deck d-flex' style={{marginLeft:'2%',marginRight:'2%'}} >
                     <div style={{width:'405px',height:'251px',border:'none',borderRadius:'8px',marginRight:'12px'}} className="card text-dark">
                         <img className="card-img" src={Supreme} alt="Supreme" />
                         <div className="card-img-overlay">
