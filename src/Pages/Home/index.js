@@ -9,7 +9,7 @@ import Carrosel from "../../components/Carrosel";
 
 let Home = () => {
     return(
-        <div style={{width: 1440,height: 3744,}}>
+        <div style={{ width: 1440,height: 3744,}}>
                 <Header/>
                 <Carrosel/>
                 <Collection/>
