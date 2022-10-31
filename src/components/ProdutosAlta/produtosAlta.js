@@ -4,14 +4,14 @@ import Sneakers from './skeakers.png';
 
 export default function ProdutosAlta() {
     return (
-        <>
-            <div style={{marginTop:'123px',width:'1440px'}}>
-                <div className="ProdutosAlta ">
-                    <div style={{marginBottom:'20px'}} className=" d-flex">
-                        <div style={{paddingLeft:'100px'}} className="">
+        <div className="container d-flex justify-content-center">
+            <div style={{width:'1440px'}}>
+                <div className="ProdutosAlta">
+                    <div style={{marginBottom:'20px'}} className="d-flex justify-content-between p-0 m-0">
+                        <div>
                             <h5>Produtos em alta</h5>
                         </div>
-                        <div style={{marginLeft:'908px'}}>
+                        <div>
                             <a href="#" className="VerTodos">Ver todos <ArrowForwardIcon></ArrowForwardIcon></a>
                         </div>
                     </div>
@@ -97,6 +97,6 @@ export default function ProdutosAlta() {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     )
 }

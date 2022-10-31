@@ -17,8 +17,90 @@
     margin-bottom: 0px;
 }
 .tenisFooter{
-    width: 573px;
-    height: 330px;
-    /* margin: 115px 815px 108px 52px; */
+    margin-top: -430px;
+    margin-left: 60px;
+    margin-right: 845px;
+    margin-bottom: 0px;
     z-index: 1000px;
 }
+.r2{
+    position: absolute;
+width: 116px;
+height: 22px;
+left: 692px;
+top: 2748px;
+display: flex;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 13.9px;
+line-height: 22px;
+
+letter-spacing: 0.75px;
+
+color: #C92071;
+}
+
+.r27{
+    position: absolute;
+width: 514px;
+height: 100px;
+left: 692px;
+top: 2780px;
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 50px;
+
+letter-spacing: 1px;
+
+color: #474747;
+}
+.r271{
+    position: absolute;
+width: 589px;
+height: 112px;
+left: 692px;
+top: 2900px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+
+letter-spacing: 0.75px;
+
+color: #474747;
+}
+/* .r273{
+    position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 22px;
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.75px;
+
+color: #F5F5F5;
+} */
+/* .r273{
+left: 696;
+top: 5900px;
+bottom: 560;
+background: #C92071;
+border-radius: 8px;
+} */

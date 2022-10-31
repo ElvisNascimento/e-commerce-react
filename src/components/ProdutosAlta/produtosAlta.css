@@ -3,8 +3,6 @@
 .ProdutosAlta{
     font-family: 'Inter', sans-serif;
     background-color: #F9F8FE;
-    /* padding: 1rem; */
-    padding-left: 100px;
 }
 
 h5{
@@ -17,18 +15,16 @@ h5{
     text-decoration: none;
     font-size: 0.8rem;
     color: #C92071;
-    padding: 2.5rem;
 }
 
 .cards{
     background-color: #F9F8FE;
-    padding-left: 100px;
 }
 
 
 .sneakerImg{
-    width: 230px;
-    height: 230px
+    width: 292px;
+    height: 321px;
 }
 
 .sneakerP{

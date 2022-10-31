@@ -9,17 +9,17 @@ import Headset from './img/Headset.png';
 export default function Collection() {
     return (
         <React.Fragment>
-            <div style={{height:'409px',width:'1440px',marginTop:'38px',marginLeft:'100px'}}>
+            <div className='container' style={{height:'409px',width:'1440px',marginTop:'38px'}}>
                 <div style={{marginBottom:'20px'}}>
-                    <p style={{width:'238px', fontSize:'21px',fontWeight:'700',letterSpacing:'0.75px',color:'color: #474747'}}>Coleções em destaque</p>
+                    <p style={{marginLeft:'2%',marginRight:'2%',width:'238px', fontSize:'21px',fontWeight:'700',letterSpacing:'0.75px',color:'color: #474747'}}>Coleções em destaque</p>
                 </div>
-                <section className='card-deck d-flex' >
-                    <div style={{width:'405px',height:'251px',border:'none',borderRadius:'8px',marginRight:'12px',fontWeight:'700',fontSize:'16px'}} className="card text-dark">
+                <section className='card-deck d-flex' style={{marginLeft:'2%',marginRight:'2%'}} >
+                    <div style={{width:'405px',height:'251px',border:'none',borderRadius:'8px',marginRight:'12px'}} className="card text-dark">
                         <img className="card-img" src={Supreme} alt="Supreme" />
                         <div className="card-img-overlay">
                             <img src={Desconto} />
                             <h5 className="card-title"><b>Novo Drop <br /> Supreme</b></h5>
-                            <button style={{color:'#C92071', backgroundColor:'#F5F5F5', borderRadius:'8px',fontWeight:'700',fontSize:'16px'}} className='btn'>Comprar</button>
+                            <button style={{width:'153px',height:'48px', color:'#c92071',backgroundColor:'#f5f5f5',borderRadius:'8px',fontSize:'16px',fontWeight:'700',letterSpacing:'0.75px'}} className='btn'>Comprar</button>
                         </div>
                     </div>
                     <div style={{width:'405px',height:'251px',border:'none',borderRadius:'8px',marginRight:'12px'}} className="card text-dark">
@@ -27,7 +27,7 @@ export default function Collection() {
                         <div className="card-img-overlay">
                             <img src={Desconto} />
                             <h5 className="card-title"><b>Coleção <br /> Adidas</b></h5>
-                            <button style={{color:'#C92071', backgroundColor:'#F5F5F5', borderRadius:'8px',fontWeight:'700',fontSize:'16px'}} className='btn btn-light'>Comprar</button>
+                            <button style={{width:'153px',height:'48px', color:'#c92071',backgroundColor:'#f5f5f5',borderRadius:'8px',fontSize:'16px',fontWeight:'700',letterSpacing:'0.75px'}} className='btn btn-light'>Comprar</button>
                         </div>
                     </div>
                     <div style={{width:'405px',height:'251px',border:'none',borderRadius:'8px',marginRight:'12px'}} className="card text-dark">
@@ -35,7 +35,7 @@ export default function Collection() {
                         <div className="card-img-overlay">
                             <img src={Desconto} />
                             <h5 className="card-title"><b>Novo <br /> Beats Bass</b></h5>
-                            <button style={{color:'#C92071', backgroundColor:'#F5F5F5', borderRadius:'8px',fontWeight:'700',fontSize:'16px'}} className='btn btn-light'>Comprar</button>
+                            <button style={{width:'153px',height:'48px', color:'#c92071',backgroundColor:'#f5f5f5',borderRadius:'8px',fontSize:'16px',fontWeight:'700',letterSpacing:'0.75px'}} className='btn btn-light'>Comprar</button>
                         </div>
                     </div>
                 </section>
